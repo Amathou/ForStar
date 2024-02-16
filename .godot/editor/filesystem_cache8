@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1708108692
+::res://::1708108699
 export_presets.cfg::TextFile::-1::1708108405::0::1::::<><>::
 icon.svg::CompressedTexture2D::5773603570562061592::1708108405::1708108512::1::::<><>::
 README.md::TextFile::-1::1708108405::0::1::::<><>::
@@ -142,7 +142,27 @@ shape_open.gd::GDScript::-1::1708108405::0::1::::SS2D_Shape_Open<>SS2D_Shape<>re
 shape_render.gd::GDScript::-1::1708108405::0::1::::SS2D_Shape_Render<>Node2D<>::
 ::res://Animations/::1708108405
 discordSpritesheet.png::CompressedTexture2D::2042149285488625078::1708108405::1708108405::1::::<><>::
-::res://ART ASSETS/::1708108692
+::res://ART ASSETS FOR SOPH/::1708108761
+::res://ART ASSETS FOR SOPH/BASES/::1708108747
+::res://ART ASSETS FOR SOPH/GRASS & DIRT/::1708108746
+::res://ART ASSETS FOR SOPH/HB Assets/::1708108747
+::res://ART ASSETS FOR SOPH/Ores/::1708108747
+::res://ART ASSETS FOR SOPH/Ores/Copper Stuff/::1708108747
+::res://ART ASSETS FOR SOPH/Ores/Duracite Stuff/::1708108747
+::res://ART ASSETS FOR SOPH/Ores/Hyperionite Stuff/::1708108747
+::res://ART ASSETS FOR SOPH/Ores/Seldonite Stuff/::1708108747
+::res://ART ASSETS FOR SOPH/Ores/Silver Stuff/::1708108747
+::res://ART ASSETS FOR SOPH/Ores/Silver-Steel Stuff/::1708108747
+::res://ART ASSETS FOR SOPH/Ores/Terracite Stuff/::1708108747
+::res://ART ASSETS FOR SOPH/Ores/Titanite Stuff/::1708108747
+::res://ART ASSETS FOR SOPH/TESTS/::1708108746
+::res://ART ASSETS FOR SOPH/Tile Map/::1708108746
+explanation.txt::TextFile::-1::1708108746::0::1::::<><>::
+TILEMAP EXAMPLE.png::CompressedTexture2D::6286966194315660094::1708108746::1708108775::1::::<><>::
+tilemap.png::CompressedTexture2D::1937715427688661756::1708108746::1708108775::1::::<><>::
+tilemap_collision.png::CompressedTexture2D::6306056408836514446::1708108746::1708108775::1::::<><>::
+tilemap_loading.png::CompressedTexture2D::6612499481709996610::1708108746::1708108775::1::::<><>::
+::res://ART ASSETS FOR SOPH/Tools/::1708108746
 ::res://scenes/::1708108405
 ::res://scenes/menu/::1708108596
 exit.png::CompressedTexture2D::438932925429418346::1708108405::1708108405::1::::<><>::
