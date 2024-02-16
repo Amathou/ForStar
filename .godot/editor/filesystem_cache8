@@ -1,7 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1708074756
+::res://::1708074995
 export_presets.cfg::TextFile::-1::1708059402::0::1::::<><>::
 icon.svg::CompressedTexture2D::5773603570562061592::1707769780::1708073514::1::::<><>::
+README.md::TextFile::-1::1708074930::0::1::::<><>::
 ::res://addons/::1708074582
 ::res://addons/camera_2d_plus/::1708074582
 plugin.cfg::TextFile::-1::1708072906::0::1::::<><>::
@@ -142,17 +143,17 @@ shape_render.gd::GDScript::-1::1708072744::0::1::::SS2D_Shape_Render<>Node2D<>::
 ::res://Animations/::1708074582
 discordSpritesheet.png::CompressedTexture2D::2042149285488625078::1708064574::1708073512::1::::<><>::
 ::res://scenes/::1708074582
-::res://scenes/menu/::1708074582
+::res://scenes/menu/::1708074991
 exit.png::CompressedTexture2D::438932925429418346::1707886256::1708073536::1::::<><>::
 menu.gd::GDScript::-1::1708065962::0::1::::<>Node2D<>::
-menu.tscn::PackedScene::312397375002976721::1708073860::0::1::::<><>::res://scenes/menu/menu.gd<>uid://dnoiqn8jj8nbc::::res://Test stuff/Test Background.png<>uid://djpj4rdgft8kh::::res://scenes/menu/start.png<>uid://bqrwfiivxchk3::::res://scenes/menu/settings.png<>uid://givfqj7ph02i::::res://scenes/menu/exit.png<>uid://4dh5u3fgg7ag::::res://Animations/discordSpritesheet.png
+menu.tscn::PackedScene::312397375002976721::1708074991::0::1::::<><>::res://scenes/menu/menu.gd<>uid://dnoiqn8jj8nbc::::res://Test stuff/Test Background.png<>uid://djpj4rdgft8kh::::res://scenes/menu/start.png<>uid://bqrwfiivxchk3::::res://scenes/menu/settings.png<>uid://givfqj7ph02i::::res://scenes/menu/exit.png<>uid://4dh5u3fgg7ag::::res://Animations/discordSpritesheet.png
 settings.png::CompressedTexture2D::3545881740061225260::1707886256::1708073536::1::::<><>::
 start.png::CompressedTexture2D::7822526448902076615::1707886256::1708073536::1::::<><>::
 ::res://scenes/player/::1708074582
 player_character.gd::GDScript::-1::1708067460::0::1::::<>CharacterBody2D<>::
 player_character.tscn::PackedScene::1356918933831088486::1708073254::0::1::::<><>::res://scenes/player/player_character.gd<>uid://buvv0p1a2xacp::::res://Test stuff/Player_Placeholder.png
-::res://Test stuff/::1708074582
-main.tscn::PackedScene::6762108269925691758::1708073894::0::1::::<><>::uid://dwkytlxa0vncu::::res://tilemaps/tilemap.png<>uid://ddjtjxvifocdj::::res://tilemaps/tilemap_collision.png<>uid://pfogdm1qi4k0::::res://tilemaps/tilemap_loading.png<>uid://tlkiyvc68sqg::::res://scenes/player/player_character.tscn
+::res://Test stuff/::1708074991
+main.tscn::PackedScene::6762108269925691758::1708074991::0::1::::<><>::uid://dwkytlxa0vncu::::res://tilemaps/tilemap.png<>uid://ddjtjxvifocdj::::res://tilemaps/tilemap_collision.png<>uid://pfogdm1qi4k0::::res://tilemaps/tilemap_loading.png<>uid://tlkiyvc68sqg::::res://scenes/player/player_character.tscn
 Player_Placeholder.png::CompressedTexture2D::3834870019036874299::1708073972::1708073984::1::::<><>::
 Test Background.png::CompressedTexture2D::8101133349779526608::1706036558::1708073850::1::::<><>::
 ::res://tilemaps/::1708074582
