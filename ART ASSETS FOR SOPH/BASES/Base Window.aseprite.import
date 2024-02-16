@@ -1,0 +1,16 @@
+[remap]
+
+importer="aseprite_wizard.plugin.static-texture"
+type="PackedDataContainer"
+uid="uid://c3xgbfoxbddyb"
+path="res://.godot/imported/Base Window.aseprite-74e78dbcad29722bfcab553dc605f778.res"
+
+[deps]
+
+source_file="res://ART ASSETS FOR SOPH/BASES/Base Window.aseprite"
+dest_files=["res://.godot/imported/Base Window.aseprite-74e78dbcad29722bfcab553dc605f778.res"]
+
+[params]
+
+exclude_layers_pattern=""
+only_visible_layers=false

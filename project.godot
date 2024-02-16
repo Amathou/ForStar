@@ -17,12 +17,13 @@ config/icon="res://icon.svg"
 
 [editor_plugins]
 
-enabled=PackedStringArray()
+enabled=PackedStringArray("res://addons/AsepriteWizard/plugin.cfg", "res://addons/GameGUI/plugin.cfg", "res://addons/camera_2d_plus/plugin.cfg", "res://addons/rmsmartshape/plugin.cfg")
 
 [file_customization]
 
 folder_colors={
-"res://ART ASSETS FOR SOPH/": "red"
+"res://ART ASSETS FOR SOPH/": "red",
+"res://addons/": "red"
 }
 
 [filesystem]
