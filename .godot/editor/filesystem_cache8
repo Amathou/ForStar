@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1708108511
+::res://::1708108561
 export_presets.cfg::TextFile::-1::1708108405::0::1::::<><>::
 icon.svg::CompressedTexture2D::5773603570562061592::1708108405::1708108512::1::::<><>::
 README.md::TextFile::-1::1708108405::0::1::::<><>::
@@ -8,10 +8,10 @@ README.md::TextFile::-1::1708108405::0::1::::<><>::
 plugin.cfg::TextFile::-1::1708108405::0::1::::<><>::
 plugin_handler.gd::GDScript::-1::1708108405::0::1::::<>EditorPlugin<>::
 ::res://addons/camera_2d_plus/images/::1708108405
-::res://addons/camera_2d_plus/images/node_icons/::1708108405
+::res://addons/camera_2d_plus/images/node_icons/::1708108512
 camera_2d_plus_icon.png::CompressedTexture2D::6989297184957306310::1708108405::1708108405::1::::<><>::
 camera_2d_plus_icon.svg::CompressedTexture2D::9138129849890561267::1708108405::1708108512::1::::<><>::
-::res://addons/camera_2d_plus/images/plugin_icon/::1708108405
+::res://addons/camera_2d_plus/images/plugin_icon/::1708108512
 plugin_icon.png::CompressedTexture2D::3783267919716899171::1708108405::1708108405::1::::<><>::
 plugin_icon.svg::CompressedTexture2D::8894793144852569507::1708108405::1708108512::1::::<><>::
 ::res://addons/camera_2d_plus/objects/::1708108405
@@ -38,7 +38,7 @@ GGTextureRect.gd::GDScript::-1::1708108405::0::1::::GGTextureRect<>TextureRect<>
 GGVBox.gd::GDScript::-1::1708108405::0::1::::GGVBox<>GGComponent<>::
 plugin.cfg::TextFile::-1::1708108405::0::1::::<><>::
 plugin.gd::GDScript::-1::1708108405::0::1::::<>EditorPlugin<>::
-::res://addons/GameGUI/Icons/::1708108405
+::res://addons/GameGUI/Icons/::1708108512
 GGButton.svg::CompressedTexture2D::7179911481186927526::1708108405::1708108512::1::::<><>::
 GGComponent.svg::CompressedTexture2D::2582759687811696311::1708108405::1708108512::1::::<><>::
 GGFiller.svg::CompressedTexture2D::2074372250803616113::1708108405::1708108512::1::::<><>::
@@ -81,7 +81,7 @@ action_open_shape.gd::GDScript::-1::1708108405::0::1::::<>SS2D_Action<>::
 action_set_pivot.gd::GDScript::-1::1708108405::0::1::::<>SS2D_Action<>::
 action_split_curve.gd::GDScript::-1::1708108405::0::1::::<>SS2D_Action<>::
 action_split_shape.gd::GDScript::-1::1708108405::0::1::::<>SS2D_Action<>::
-::res://addons/rmsmartshape/assets/::1708108405
+::res://addons/rmsmartshape/assets/::1708108512
 Anchor.svg::CompressedTexture2D::4297979011371281991::1708108405::1708108512::1::::<><>::
 CenterView.svg::CompressedTexture2D::4120058092302796968::1708108405::1708108512::1::::<><>::
 closed_shape.png::CompressedTexture2D::2353128964106326528::1708108405::1708108405::1::::<><>::
