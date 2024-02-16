@@ -1,0 +1,1 @@
+A tilemap is just an image file that contains all the images/textures for game tiles in a scene. basically, it allows me to drag and drop all the game tiles. whenever we add a texture we should make a tilemap with it so we can use it as such.
