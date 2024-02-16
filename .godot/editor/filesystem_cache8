@@ -1,9 +1,9 @@
-ea4bc82a6ad023ab7ee23ee620429895
-::res://::1708108899
+6dcd580d9bf2a9dbe66cc9f994d3620b
+::res://::1708109854
 export_presets.cfg::TextFile::-1::1708108405::0::1::::<><>::
 icon.svg::CompressedTexture2D::5773603570562061592::1708108405::1708108512::1::::<><>::
 README.md::TextFile::-1::1708108405::0::1::::<><>::
-::res://addons/::1708108890
+::res://addons/::1708109923
 ::res://addons/AsepriteWizard/::1708108891
 plugin.cfg::TextFile::-1::1708108891::0::1::::<><>::
 plugin.gd::GDScript::-1::1708108891::0::1::::<>EditorPlugin<>::
@@ -118,6 +118,153 @@ GGParameterSetter.svg::CompressedTexture2D::7282946540389084976::1708108405::170
 GGRichTextLabel.svg::CompressedTexture2D::2080477511587235723::1708108405::1708108512::1::::<><>::
 GGTextureRect.svg::CompressedTexture2D::1878733250621950154::1708108405::1708108512::1::::<><>::
 GGVBox.svg::CompressedTexture2D::1689201462739830556::1708108405::1708108512::1::::<><>::
+::res://addons/inventory-system/::1708109926
+inventory-system.gd::GDScript::-1::1708109926::0::1::::<>EditorPlugin<>::
+plugin.cfg::TextFile::-1::1708109926::0::1::::<><>::
+::res://addons/inventory-system/core/::1708109924
+categorized_slot.gd::GDScript::-1::1708109923::0::1::::CategorizedSlot<>Slot<>::
+dropped_item_2d.gd::GDScript::-1::1708109923::0::1::::DroppedItem2D<>Node2D<>res://addons/inventory-system/icons/dropped_item_2d.svg::
+dropped_item_3d.gd::GDScript::-1::1708109923::0::1::::DroppedItem3D<>Node3D<>res://addons/inventory-system/icons/dropped_item_3d.svg::
+hotbar.gd::GDScript::-1::1708109923::0::1::::Hotbar<>NodeInventorySystemBase<>res://addons/inventory-system/icons/hotbar.svg::
+inventory.gd::GDScript::-1::1708109923::0::1::::Inventory<>NodeInventorySystemBase<>res://addons/inventory-system/icons/inventory.svg::
+inventory_database.gd::GDScript::-1::1708109923::0::1::::InventoryDatabase<>Resource<>res://addons/inventory-system/icons/inventory_database.svg::
+inventory_handler.gd::GDScript::-1::1708109923::0::1::::InventoryHandler<>NodeInventorySystemBase<>res://addons/inventory-system/icons/inventory_handler.svg::
+inventory_item.gd::GDScript::-1::1708109923::0::1::::InventoryItem<>Resource<>res://addons/inventory-system/icons/inventory_item.svg::
+inventory_system.gd::GDScript::-1::1708109923::0::1::::<>Node<>::
+inventory_system.tscn::PackedScene::7370905296284237273::1708109923::0::1::::<><>::res://addons/inventory-system/core/inventory_system.gd
+item_category.gd::GDScript::-1::1708109923::0::1::::ItemCategory<>Resource<>res://addons/inventory-system/icons/item_category.svg::
+node_inventory_system_base.gd::GDScript::-1::1708109923::0::1::::NodeInventorySystemBase<>Node<>res://addons/inventory-system/icons/node_inventory_system_base.svg::
+slot.gd::GDScript::-1::1708109923::0::1::::Slot<>Resource<>::
+slot_item.gd::GDScript::-1::1708109924::0::1::::SlotItem<>Resource<>::
+::res://addons/inventory-system/craft/::1708109924
+crafter.gd::GDScript::-1::1708109924::0::1::::Crafter<>NodeInventorySystemBase<>res://addons/inventory-system/icons/crafter.svg::
+craft_station.gd::GDScript::-1::1708109924::0::1::::CraftStation<>NodeInventorySystemBase<>res://addons/inventory-system/icons/craft_station.svg::
+craft_station_type.gd::GDScript::-1::1708109924::0::1::::CraftStationType<>Resource<>res://addons/inventory-system/icons/craft_station_type.svg::
+recipe.gd::GDScript::-1::1708109924::0::1::::Recipe<>Resource<>res://addons/inventory-system/icons/recipe.svg::
+::res://addons/inventory-system/editor/::1708109925
+constants.gd::GDScript::-1::1708109924::0::1::::<>Node<>::
+inventory-system-inspector.gd::GDScript::-1::1708109924::0::1::::<>Node<>::
+inventory_editor.gd::GDScript::-1::1708109924::0::1::::<>Control<>::
+inventory_editor.tscn::PackedScene::1608896955374573582::1708109924::0::1::::<><>::res://addons/inventory-system/editor/inventory_editor.gd<>res://addons/inventory-system/editor/tab_container_inventory.gd<>uid://7ueixntymdwg::::res://addons/inventory-system/icons/new_inventory_item.svg<>uid://76umvuslxorx::::res://addons/inventory-system/icons/inventory_item.svg<>uid://dhpnx4f2e7pwf::::res://addons/inventory-system/icons/new_recipe.svg<>uid://br4lqgdunlyet::::res://addons/inventory-system/icons/recipe.svg<>uid://ilsakiynp5o7::::res://addons/inventory-system/icons/new_craft_station_type.svg<>uid://6b7n3apcb8hy::::res://addons/inventory-system/icons/new_item_category.svg<>uid://kuckh8lq8mwr::::res://addons/inventory-system/editor/items/items.tscn<>uid://c20tt03af3qw6::::res://addons/inventory-system/editor/recipes/recipes.tscn<>uid://3qxo8va657qh::::res://addons/inventory-system/icons/craft_station_type.svg<>uid://bgx18ev7eamk5::::res://addons/inventory-system/icons/item_category.svg<>uid://clj2qii0ta8lx::::res://addons/inventory-system/editor/craft_stations/craft_stations.tscn<>uid://cfevgv38d1bll::::res://addons/inventory-system/editor/categories/categories_editor.tscn
+inventory_settings.gd::GDScript::-1::1708109924::0::1::::<>Node<>::
+slot_selector.gd::GDScript::-1::1708109925::0::1::::SlotSelector<>HBoxContainer<>::
+slot_selector.tscn::PackedScene::1963870071877435181::1708109925::0::1::::<><>::res://addons/inventory-system/editor/slot_selector.gd<>uid://bcs0kajdte05g::::res://addons/inventory-system/editor/base/item_id_editor.tscn
+tab_container_inventory.gd::GDScript::-1::1708109925::0::1::::<>TabContainer<>::
+::res://addons/inventory-system/editor/base/::1708109924
+base_inventory_editor.gd::GDScript::-1::1708109924::0::1::::InventoryTabEditor<>Control<>::
+inventory_tab_editor.tscn::PackedScene::1751733037210043961::1708109924::0::1::::<><>::res://addons/inventory-system/editor/base/base_inventory_editor.gd
+item_id_editor.gd::GDScript::-1::1708109924::0::1::::ItemIDEditor<>HBoxContainer<>::
+item_id_editor.tscn::PackedScene::2565492967365575894::1708109924::0::1::::<><>::res://addons/inventory-system/editor/base/item_id_editor.gd
+::res://addons/inventory-system/editor/categories/::1708109924
+categories_editor.gd::GDScript::-1::1708109924::0::1::::CategoriesEditor<>InventoryTabEditor<>::
+categories_editor.tscn::PackedScene::5133330015953406373::1708109924::0::1::::<><>::uid://y7s1081jj0hp::::res://addons/inventory-system/editor/base/inventory_tab_editor.tscn<>res://addons/inventory-system/editor/categories/categories_editor.gd<>uid://yb8wore3as0d::::res://addons/inventory-system/editor/categories/item_categories_item_list.tscn<>uid://dqcgncj4oicwn::::res://addons/inventory-system/editor/categories/item_category_editor.tscn
+item_categories_item_list.gd::GDScript::-1::1708109924::0::1::::ItemCategoriesItemList<>VBoxContainer<>::
+item_categories_item_list.tscn::PackedScene::1688640335101795869::1708109924::0::1::::<><>::res://addons/inventory-system/editor/categories/item_categories_item_list.gd
+item_category_editor.gd::GDScript::-1::1708109924::0::1::::ItemCategoryEditor<>Control<>::
+item_category_editor.tscn::PackedScene::8286799942359896833::1708109924::0::1::::<><>::res://addons/inventory-system/editor/categories/item_category_editor.gd
+::res://addons/inventory-system/editor/craft_stations/::1708109924
+craft_stations.tscn::PackedScene::5565166412404820193::1708109924::0::1::::<><>::uid://y7s1081jj0hp::::res://addons/inventory-system/editor/base/inventory_tab_editor.tscn<>res://addons/inventory-system/editor/craft_stations/craft_stations_types_editor.gd<>uid://dn6l1p7td2wlb::::res://addons/inventory-system/editor/craft_stations/craft_station_types_item_list.tscn<>uid://cdv6y2uu0ywq0::::res://addons/inventory-system/editor/craft_stations/craft_station_type_editor.tscn
+craft_stations_types_editor.gd::GDScript::-1::1708109924::0::1::::CraftStationTypesEditor<>InventoryTabEditor<>::
+craft_station_types_item_list.gd::GDScript::-1::1708109924::0::1::::CraftStationTypesItemList<>VBoxContainer<>::
+craft_station_types_item_list.tscn::PackedScene::8136427884463898167::1708109924::0::1::::<><>::res://addons/inventory-system/editor/craft_stations/craft_station_types_item_list.gd
+craft_station_type_editor.gd::GDScript::-1::1708109924::0::1::::CraftStationTypeEditor<>Control<>::
+craft_station_type_editor.tscn::PackedScene::5028686366934660833::1708109924::0::1::::<><>::res://addons/inventory-system/editor/craft_stations/craft_station_type_editor.gd
+::res://addons/inventory-system/editor/items/::1708109924
+base_property.gd::GDScript::-1::1708109924::0::1::::BasePropertyItemEditor<>HBoxContainer<>::
+base_property.tscn::PackedScene::2820047495968174769::1708109924::0::1::::<><>::res://addons/inventory-system/editor/items/base_property.gd
+categories_in_item.gd::GDScript::-1::1708109924::0::1::::CategoriesInItem<>HBoxContainer<>::
+categories_in_item.tscn::PackedScene::3219913667990839164::1708109924::0::1::::<><>::res://addons/inventory-system/editor/items/categories_in_item.gd
+custom_properties.gd::GDScript::-1::1708109924::0::1::::CustomPropertiesItemEditor<>VBoxContainer<>::
+custom_properties.tscn::PackedScene::6598535588527827555::1708109924::0::1::::<><>::res://addons/inventory-system/editor/items/custom_properties.gd<>uid://bggb1gnxppq0x::::res://addons/inventory-system/editor/items/base_property.tscn
+inventory_item_list.gd::GDScript::-1::1708109924::0::1::::InventoryItemListEditor<>VBoxContainer<>::
+inventory_item_list.tscn::PackedScene::8964138825162102892::1708109924::0::1::::<><>::res://addons/inventory-system/editor/items/inventory_item_list.gd
+items.tscn::PackedScene::743315702550580693::1708109924::0::1::::<><>::uid://y7s1081jj0hp::::res://addons/inventory-system/editor/base/inventory_tab_editor.tscn<>res://addons/inventory-system/editor/items/items_editor.gd<>uid://d0ykb6vojc7ga::::res://addons/inventory-system/editor/items/inventory_item_list.tscn<>uid://5wb5xuou85vf::::res://addons/inventory-system/editor/items/item_editor.tscn
+items_editor.gd::GDScript::-1::1708109924::0::1::::ItemsEditor<>InventoryTabEditor<>::
+item_editor.gd::GDScript::-1::1708109924::0::1::::ItemEditor<>Control<>::
+item_editor.tscn::PackedScene::2151197150137496655::1708109924::0::1::::<><>::res://addons/inventory-system/editor/items/item_editor.gd<>uid://bcs0kajdte05g::::res://addons/inventory-system/editor/base/item_id_editor.tscn<>uid://bl40ri4you0n5::::res://addons/inventory-system/editor/items/categories_in_item.tscn<>uid://c1am6gfdvbcgx::::res://addons/inventory-system/editor/items/custom_properties.tscn
+::res://addons/inventory-system/editor/recipes/::1708109925
+ingredient_editor.gd::GDScript::-1::1708109924::0::1::::IngredientEditor<>HBoxContainer<>::
+ingredient_editor.tscn::PackedScene::9028623545936519959::1708109924::0::1::::<><>::res://addons/inventory-system/editor/recipes/ingredient_editor.gd<>uid://28kwhb0vuwhx::::res://addons/inventory-system/editor/slot_selector.tscn
+ingredient_item_in_recipe_item.gd::GDScript::-1::1708109924::0::1::::<>HBoxContainer<>::
+ingredient_item_in_recipe_item.tscn::PackedScene::5618165760894868716::1708109924::0::1::::<><>::res://addons/inventory-system/editor/recipes/ingredient_item_in_recipe_item.gd
+recipes.tscn::PackedScene::6720738498757405435::1708109925::0::1::::<><>::uid://y7s1081jj0hp::::res://addons/inventory-system/editor/base/inventory_tab_editor.tscn<>res://addons/inventory-system/editor/recipes/recipes_editor.gd<>uid://bkrqq2gbr45r5::::res://addons/inventory-system/editor/recipes/recipes_list_editor.tscn<>uid://c5qc6bmfbgi4h::::res://addons/inventory-system/editor/recipes/recipe_editor.tscn
+recipes_editor.gd::GDScript::-1::1708109925::0::1::::RecipesEditor<>InventoryTabEditor<>::
+recipes_list_editor.gd::GDScript::-1::1708109925::0::1::::RecipesListEditor<>Control<>::
+recipes_list_editor.tscn::PackedScene::3124405013947791472::1708109925::0::1::::<><>::res://addons/inventory-system/editor/recipes/recipes_list_editor.gd
+recipe_editor.gd::GDScript::-1::1708109924::0::1::::RecipeEditor<>Control<>::
+recipe_editor.tscn::PackedScene::6911713585478477409::1708109924::0::1::::<><>::res://addons/inventory-system/editor/recipes/recipe_editor.gd
+recipe_item_list_editor.gd::GDScript::-1::1708109925::0::1::::RecipeItemListEditor<>Control<>::
+recipe_item_list_editor.tscn::PackedScene::268742390586191110::1708109925::0::1::::<><>::res://addons/inventory-system/editor/recipes/recipe_item_list_editor.gd
+::res://addons/inventory-system/extras/::1708109925
+character_inventory_system.gd::GDScript::-1::1708109925::0::1::::CharacterInventorySystem<>NodeInventorySystemBase<>res://addons/inventory-system/icons/character_inventory_system.svg::
+character_inventory_system.tscn::PackedScene::6377935571037408884::1708109925::0::1::::<><>::res://addons/inventory-system/extras/character_inventory_system.gd<>res://addons/inventory-system/core/inventory_handler.gd<>res://addons/inventory-system/core/inventory.gd<>res://addons/inventory-system/core/categorized_slot.gd<>res://addons/inventory-system/core/hotbar.gd<>res://addons/inventory-system/craft/crafter.gd<>res://addons/inventory-system/craft/craft_station.gd<>res://addons/inventory-system/interact/inventory_interactor.gd<>res://addons/inventory-system/extras/object_placer.gd
+hand_item_3d.gd::GDScript::-1::1708109925::0::1::::HandItem3D<>Node3D<>::
+hand_item_holder_2d.gd::GDScript::-1::1708109925::0::1::::HandItemHolder2D<>Node3D<>::
+hand_item_holder_3d.gd::GDScript::-1::1708109925::0::1::::HandItemHolder3D<>Node3D<>::
+networked_character_inventory_system.gd::GDScript::-1::1708109925::0::1::::NetworkedCharacterInventorySystem<>CharacterInventorySystem<>::
+networked_object_placer.gd::GDScript::-1::1708109925::0::1::::NetworkedObjectPlacer<>ObjectPlacer<>::
+object_placer.gd::GDScript::-1::1708109925::0::1::::ObjectPlacer<>NodeInventorySystemBase<>::
+placeable_hand_item_3d.gd::GDScript::-1::1708109925::0::1::::PlaceableHandItem3D<>HandItem3D<>::
+::res://addons/inventory-system/icons/::1708109926
+character_inventory_system.svg::CompressedTexture2D::2542607365509571212::1708109925::1708109927::1::::<><>::
+crafter.svg::CompressedTexture2D::8432296199442963937::1708109925::1708109927::1::::<><>::
+craft_station.svg::CompressedTexture2D::588564686465095115::1708109925::1708109927::1::::<><>::
+craft_station_type.svg::CompressedTexture2D::1999740923632250951::1708109925::1708109927::1::::<><>::
+dropped_item_2d.svg::CompressedTexture2D::8690409786794989485::1708109925::1708109927::1::::<><>::
+dropped_item_3d.svg::CompressedTexture2D::171075670322130642::1708109925::1708109927::1::::<><>::
+hotbar.svg::CompressedTexture2D::8115197521032938087::1708109925::1708109927::1::::<><>::
+interactor.svg::CompressedTexture2D::6470240040581753878::1708109925::1708109927::1::::<><>::
+inventory.svg::CompressedTexture2D::4411911944663532738::1708109925::1708109927::1::::<><>::
+inventory_database.svg::CompressedTexture2D::4077859251436792514::1708109925::1708109927::1::::<><>::
+inventory_handler.svg::CompressedTexture2D::7164404173040105949::1708109925::1708109927::1::::<><>::
+inventory_item.svg::CompressedTexture2D::2311275610894976825::1708109925::1708109927::1::::<><>::
+inventory_main_screen.svg::CompressedTexture2D::8625776359140581454::1708109925::1708109927::1::::<><>::
+item_category.svg::CompressedTexture2D::2856672250869046306::1708109925::1708109927::1::::<><>::
+new_craft_station_type.svg::CompressedTexture2D::585312348969097020::1708109926::1708109927::1::::<><>::
+new_inventory_item.svg::CompressedTexture2D::2287588934835868542::1708109926::1708109927::1::::<><>::
+new_item_category.svg::CompressedTexture2D::2179886160960439954::1708109926::1708109927::1::::<><>::
+new_recipe.svg::CompressedTexture2D::7682381549156757005::1708109926::1708109927::1::::<><>::
+node_inventory_system_base.svg::CompressedTexture2D::812830383572083705::1708109926::1708109927::1::::<><>::
+recipe.svg::CompressedTexture2D::3640194760731349731::1708109926::1708109927::1::::<><>::
+::res://addons/inventory-system/interact/::1708109926
+interact_action.gd::GDScript::-1::1708109926::0::1::::InteractAction<>Resource<>::
+inventory_interactor.gd::GDScript::-1::1708109926::0::1::::InventoryInteractor<>NodeInventorySystemBase<>res://addons/inventory-system/icons/interactor.svg::
+::res://addons/inventory-system/multiplayer/::1708109926
+dropped_item_spawner.gd::GDScript::-1::1708109926::0::1::::DropItemSpawner<>MultiplayerSpawner<>::
+networked_handler.gd::GDScript::-1::1708109926::0::1::::NetworkedHandler<>InventoryHandler<>::
+networked_hotbar.gd::GDScript::-1::1708109926::0::1::::NetworkedHotbar<>Hotbar<>::
+networked_inventory.gd::GDScript::-1::1708109926::0::1::::NetworkedInventory<>Inventory<>::
+::res://addons/inventory-system/multiplayer/craft/::1708109926
+networked_crafter.gd::GDScript::-1::1708109926::0::1::::NetworkedCrafter<>Crafter<>::
+networked_craft_station.gd::GDScript::-1::1708109926::0::1::::NetworkedCraftStation<>CraftStation<>::
+::res://addons/inventory-system/ui/::1708109927
+hotbar_ui.gd::GDScript::-1::1708109926::0::1::::HotbarUI<>Node<>::
+inventory_system_ui.gd::GDScript::-1::1708109926::0::1::::InventorySystemUI<>Control<>::
+inventory_system_ui.tscn::PackedScene::7215119628282089724::1708109926::0::1::::<><>::res://addons/inventory-system/ui/inventory_system_ui.gd<>uid://1dijqt6vr078::::res://addons/inventory-system/ui/inventory_ui.tscn<>res://addons/inventory-system/ui/transaction_slot.gd<>uid://dq1rob2nkb0cb::::res://addons/inventory-system/ui/slot_ui.tscn<>res://addons/inventory-system/ui/hotbar_ui.gd<>uid://doyklj58bvj21::::res://addons/inventory-system/ui/interactor/interactor_ui.tscn<>uid://cci6dwxmbapt1::::res://addons/inventory-system/ui/craft/craft_station_ui.tscn
+inventory_ui.gd::GDScript::-1::1708109926::0::1::::InventoryUI<>Control<>::
+inventory_ui.tscn::PackedScene::1831605747100442685::1708109926::0::1::::<><>::res://addons/inventory-system/ui/inventory_ui.gd<>uid://dq1rob2nkb0cb::::res://addons/inventory-system/ui/slot_ui.tscn
+slot_ui.gd::GDScript::-1::1708109926::0::1::::SlotUI<>Control<>::
+slot_ui.tscn::PackedScene::8337014655722235441::1708109926::0::1::::<><>::res://addons/inventory-system/ui/slot_ui.gd
+transaction_slot.gd::GDScript::-1::1708109927::0::1::::TransactionSlotUI<>SlotUI<>::
+::res://addons/inventory-system/ui/craft/::1708109926
+craftings_ui.gd::GDScript::-1::1708109926::0::1::::CraftingsUI<>VBoxContainer<>::
+crafting_ui.gd::GDScript::-1::1708109926::0::1::::CraftingUI<>Control<>::
+crafting_ui.tscn::PackedScene::7296627300146667151::1708109926::0::1::::<><>::res://addons/inventory-system/ui/craft/crafting_ui.gd
+craft_station_ui.gd::GDScript::-1::1708109926::0::1::::CraftStationUI<>Control<>::
+craft_station_ui.tscn::PackedScene::4931622852443004332::1708109926::0::1::::<><>::res://addons/inventory-system/ui/craft/craft_station_ui.gd<>uid://duq60fhdry5hv::::res://addons/inventory-system/ui/craft/recipe_ui.tscn<>res://addons/inventory-system/ui/craft/craftings_ui.gd<>uid://db7sndy7hfpq2::::res://addons/inventory-system/ui/craft/crafting_ui.tscn<>uid://1dijqt6vr078::::res://addons/inventory-system/ui/inventory_ui.tscn
+ingredient_ui.gd::GDScript::-1::1708109926::0::1::::IngredientUI<>Control<>::
+ingredient_ui.tscn::PackedScene::2418401559863028620::1708109926::0::1::::<><>::res://addons/inventory-system/ui/craft/ingredient_ui.gd
+recipe_ui.gd::GDScript::-1::1708109926::0::1::::RecipeUI<>Control<>::
+recipe_ui.tscn::PackedScene::8597996113118673899::1708109926::0::1::::<><>::res://addons/inventory-system/ui/craft/recipe_ui.gd<>uid://bapqyqy7nvi8s::::res://addons/inventory-system/ui/craft/ingredient_ui.tscn
+::res://addons/inventory-system/ui/interactor/::1708109926
+action_message.gd::GDScript::-1::1708109926::0::1::::ActionMessageUI<>HBoxContainer<>::
+action_message_ui.tscn::PackedScene::2036638287791359129::1708109926::0::1::::<><>::res://addons/inventory-system/ui/interactor/action_message.gd<>uid://bxe7obvu1xl0x::::res://addons/inventory-system/ui/interactor/default_input_helper.tres<>uid://c2cuwwcpbs81y::::res://addons/inventory-system/ui/interactor/default_input_icons.tres
+default_input_helper.tres::Resource/InputHelper::4010989629175894061::1708109926::0::1::::<><>::res://addons/inventory-system/ui/interactor/input_helper.gd
+default_input_icons.tres::Resource/InputIcons::6673323687729359248::1708109926::0::1::::<><>::res://addons/inventory-system/ui/interactor/input_icons.gd<>uid://dsewxlrqmqe30::::res://addons/inventory-system/icons/crafter.svg
+input_helper.gd::GDScript::-1::1708109926::0::1::::InputHelper<>Resource<>::
+input_icons.gd::GDScript::-1::1708109926::0::1::::InputIcons<>Resource<>::
+interactor_ui.gd::GDScript::-1::1708109926::0::1::::InteractorUI<>Control<>::
+interactor_ui.tscn::PackedScene::8192078262325635500::1708109926::0::1::::<><>::res://addons/inventory-system/ui/interactor/interactor_ui.gd<>uid://c2cuwwcpbs81y::::res://addons/inventory-system/ui/interactor/default_input_icons.tres<>uid://4ateud0jxegv::::res://addons/inventory-system/ui/interactor/action_message_ui.tscn
 ::res://addons/rmsmartshape/::1708108405
 asset_library_icon-new.png::CompressedTexture2D::2151770384630910896::1708108405::1708108405::1::::<><>::
 asset_library_icon.png::CompressedTexture2D::4849512297864961828::1708108405::1708108405::1::::<><>::
@@ -207,43 +354,43 @@ shape_render.gd::GDScript::-1::1708108405::0::1::::SS2D_Shape_Render<>Node2D<>::
 ::res://Animations/::1708108405
 discordSpritesheet.png::CompressedTexture2D::2042149285488625078::1708108405::1708108405::1::::<><>::
 ::res://ART ASSETS FOR SOPH/::1708108761
-::res://ART ASSETS FOR SOPH/BASES/::1708108747
-Base Window.aseprite::PackedDataContainer::6785976050635473221::1708108747::1708108899::1::::<><>::
-::res://ART ASSETS FOR SOPH/GRASS & DIRT/::1708108746
+::res://ART ASSETS FOR SOPH/BASES/::1708108945
+Base Window.aseprite::PackedDataContainer::6785976050635473221::1708108747::1708108945::1::::<><>::
+::res://ART ASSETS FOR SOPH/GRASS & DIRT/::1708108899
 Center Grass Tile .aseprite::PackedDataContainer::8431219028155612293::1708108746::1708108899::1::::<><>::
 Dirt Back.aseprite::PackedDataContainer::8479938054923845515::1708108746::1708108899::1::::<><>::
 Dirt Front.aseprite::PackedDataContainer::7001477374758586547::1708108746::1708108899::1::::<><>::
 Dirt.aseprite::PackedDataContainer::6325718752059687822::1708108746::1708108899::1::::<><>::
 Edge Grass Tile.aseprite::PackedDataContainer::4056533921512195759::1708108746::1708108899::1::::<><>::
-::res://ART ASSETS FOR SOPH/HB Assets/::1708108747
+::res://ART ASSETS FOR SOPH/HB Assets/::1708108899
 HB Door.aseprite::PackedDataContainer::1060627199151311205::1708108747::1708108899::1::::<><>::
 Home-Base.aseprite::PackedDataContainer::6087277489506809484::1708108747::1708108899::1::::<><>::
 ::res://ART ASSETS FOR SOPH/Ores/::1708108747
-::res://ART ASSETS FOR SOPH/Ores/Copper Stuff/::1708108747
+::res://ART ASSETS FOR SOPH/Ores/Copper Stuff/::1708108899
 Copper Form.aseprite::PackedDataContainer::2734244142946336681::1708108747::1708108899::1::::<><>::
 Copper Raw.aseprite::PackedDataContainer::954488154660400055::1708108747::1708108899::1::::<><>::
-::res://ART ASSETS FOR SOPH/Ores/Duracite Stuff/::1708108747
+::res://ART ASSETS FOR SOPH/Ores/Duracite Stuff/::1708108899
 Duracite Form.aseprite::PackedDataContainer::2520808715215355792::1708108747::1708108899::1::::<><>::
 Duracite Raw.aseprite::PackedDataContainer::7816323482398469896::1708108747::1708108899::1::::<><>::
-::res://ART ASSETS FOR SOPH/Ores/Hyperionite Stuff/::1708108747
+::res://ART ASSETS FOR SOPH/Ores/Hyperionite Stuff/::1708108899
 Hyperionite Form.aseprite::PackedDataContainer::8201484497665359103::1708108747::1708108899::1::::<><>::
 Hyperionite Raw.aseprite::PackedDataContainer::3200831987904146634::1708108747::1708108899::1::::<><>::
-::res://ART ASSETS FOR SOPH/Ores/Seldonite Stuff/::1708108747
+::res://ART ASSETS FOR SOPH/Ores/Seldonite Stuff/::1708108899
 Seldonite Form.aseprite::PackedDataContainer::943421571635059159::1708108747::1708108899::1::::<><>::
 Seldonite Raw.aseprite::PackedDataContainer::3545908211754733021::1708108747::1708108899::1::::<><>::
-::res://ART ASSETS FOR SOPH/Ores/Silver Stuff/::1708108747
+::res://ART ASSETS FOR SOPH/Ores/Silver Stuff/::1708108899
 Silver Form.aseprite::PackedDataContainer::6033675679184409407::1708108747::1708108899::1::::<><>::
 Silver Raw.aseprite::PackedDataContainer::2304497358765437657::1708108747::1708108899::1::::<><>::
-::res://ART ASSETS FOR SOPH/Ores/Silver-Steel Stuff/::1708108747
+::res://ART ASSETS FOR SOPH/Ores/Silver-Steel Stuff/::1708108899
 Silver-Steel Form.aseprite::PackedDataContainer::1792807859870447317::1708108747::1708108899::1::::<><>::
 Silver-Steel Raw.aseprite::PackedDataContainer::1363712676957514343::1708108747::1708108899::1::::<><>::
-::res://ART ASSETS FOR SOPH/Ores/Terracite Stuff/::1708108747
+::res://ART ASSETS FOR SOPH/Ores/Terracite Stuff/::1708108899
 Terracite Form.aseprite::PackedDataContainer::3432936813764366547::1708108747::1708108899::1::::<><>::
 Terracite Raw.aseprite::PackedDataContainer::5435208314654060373::1708108747::1708108899::1::::<><>::
-::res://ART ASSETS FOR SOPH/Ores/Titanite Stuff/::1708108747
+::res://ART ASSETS FOR SOPH/Ores/Titanite Stuff/::1708108899
 Titanite Form.aseprite::PackedDataContainer::382377586267550410::1708108747::1708108899::1::::<><>::
 Titanite Raw.aseprite::PackedDataContainer::7905939610954096050::1708108747::1708108899::1::::<><>::
-::res://ART ASSETS FOR SOPH/TESTS/::1708108746
+::res://ART ASSETS FOR SOPH/TESTS/::1708108899
 Grassss.aseprite::PackedDataContainer::7585527293196743813::1708108746::1708108899::1::::<><>::
 Test Background.aseprite::PackedDataContainer::2437313069106650949::1708108746::1708108899::1::::<><>::
 Test Game Setting.aseprite::PackedDataContainer::1173561248708317904::1708108746::1708108899::1::::<><>::
@@ -255,7 +402,7 @@ TILEMAP EXAMPLE.png::CompressedTexture2D::6286966194315660094::1708108746::17081
 tilemap.png::CompressedTexture2D::1937715427688661756::1708108746::1708108775::1::::<><>::
 tilemap_collision.png::CompressedTexture2D::6306056408836514446::1708108746::1708108775::1::::<><>::
 tilemap_loading.png::CompressedTexture2D::6612499481709996610::1708108746::1708108775::1::::<><>::
-::res://ART ASSETS FOR SOPH/Tools/::1708108746
+::res://ART ASSETS FOR SOPH/Tools/::1708108899
 Color Swatches .aseprite::PackedDataContainer::8701699619572644140::1708108746::1708108899::1::::<><>::
 Copper Axe.aseprite::PackedDataContainer::3610894658146425235::1708108746::1708108899::1::::<><>::
 Copper Pick.aseprite::PackedDataContainer::4240793794551664631::1708108746::1708108899::1::::<><>::
@@ -289,8 +436,8 @@ start.png::CompressedTexture2D::7822526448902076615::1708108405::1708108405::1::
 ::res://scenes/player/::1708108405
 player_character.gd::GDScript::-1::1708108405::0::1::::<>CharacterBody2D<>::
 player_character.tscn::PackedScene::1356918933831088486::1708108405::0::1::::<><>::res://scenes/player/player_character.gd<>uid://buvv0p1a2xacp::::res://Test stuff/Player_Placeholder.png
-::res://Test stuff/::1708108805
-main.tscn::PackedScene::6762108269925691758::1708108805::0::1::::<><>::uid://dwkytlxa0vncu::::res://tilemaps/tilemap.png<>uid://ddjtjxvifocdj::::res://tilemaps/tilemap_collision.png<>uid://pfogdm1qi4k0::::res://tilemaps/tilemap_loading.png<>uid://tlkiyvc68sqg::::res://scenes/player/player_character.tscn
+::res://Test stuff/::1708109059
+main.tscn::PackedScene::6762108269925691758::1708109059::0::1::::<><>::uid://dwkytlxa0vncu::::res://tilemaps/tilemap.png<>uid://ddjtjxvifocdj::::res://tilemaps/tilemap_collision.png<>uid://pfogdm1qi4k0::::res://tilemaps/tilemap_loading.png<>uid://tlkiyvc68sqg::::res://scenes/player/player_character.tscn
 Player_Placeholder.png::CompressedTexture2D::3834870019036874299::1708108405::1708108405::1::::<><>::
 Test Background.png::CompressedTexture2D::8101133349779526608::1708108405::1708108405::1::::<><>::
 ::res://tilemaps/::1708108405
