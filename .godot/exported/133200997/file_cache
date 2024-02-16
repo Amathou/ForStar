@@ -1,0 +1,16 @@
+res://main.tscn::9359bd2c0b1a1ff97fdd02f383faf7cc::1708059152::res://.godot/exported/133200997/export-3070c538c03ee49b7677ff960a3f5195-main.scn
+res://scenes/menu/menu.tscn::096ceaa79d3f08e8c5b18a587c480d6d::1708059152::res://.godot/exported/133200997/export-523ba9f1be4474a87fc09942b9fbb098-menu.scn
+res://scenes/player/player_character.tscn::4f93e4065bd11abc99e518ac9a573509::1708059152::res://.godot/exported/133200997/export-89bcfafa91b9266ca4dd9c755b27f918-player_character.scn
+res://addons/gle2d/components/Group.tscn::67a185c78cef6f62ac70a54dc4811c1d::1708051960::res://.godot/exported/133200997/export-964a440cc167551e6398df60a44a0c98-Group.scn
+res://addons/gle2d/components/Resource.tscn::dbff6bf0054509d49ddcd0cc386fe9b7::1708051960::res://.godot/exported/133200997/export-2ba10217d044ad656b1f5eb9c58d38fc-Resource.scn
+res://addons/gle2d/components/ResourceContainer.tscn::1f1e58de73a8f8daaead58b29dd2207f::1708051960::res://.godot/exported/133200997/export-dd459d3cb3143aaaaf3a7661649edd92-ResourceContainer.scn
+res://addons/gle2d/components/RoomNode.tscn::4c4076daaa5334df4c725b899a7e0999::1708051960::res://.godot/exported/133200997/export-2e166552c0ff615f31b7b0b47d667ee1-RoomNode.scn
+res://addons/gle2d/resources/scenes/DoorTemplate.tscn::20b62a4b093051225ec9f36d232c4124::1708051960::res://.godot/exported/133200997/export-e312385345715aa9d24d93b4f96f2e36-DoorTemplate.scn
+res://addons/gle2d/resources/scenes/DoorTest.tscn::c7ea80625be8b7167011f0a70e555b06::1708051960::res://.godot/exported/133200997/export-4b9967db86da6d102a7aa4b716cf20f6-DoorTest.scn
+res://addons/gle2d/resources/scenes/Glass.tscn::eaafa8fc294f1e9bff9c76f315ec893b::1708051960::res://.godot/exported/133200997/export-28d884058939d2a80f3d2d5bee1c059f-Glass.scn
+res://addons/gle2d/resources/scenes/PlayerTest.tscn::15fd0118b136dda8a06574a082409142::1708051960::res://.godot/exported/133200997/export-43fb2a7b5b62bd89c9d995ead137c127-PlayerTest.scn
+res://addons/gle2d/resources/scenes/RoomTemplate.tscn::34937bd4e99dfd441cd462404d5f926d::1708051960::res://.godot/exported/133200997/export-1b3727e7c3865bc997c0f8c4881ef92d-RoomTemplate.scn
+res://addons/gle2d/views/tabs/Configuration.tscn::b3c1ad6aec50b88253b80e8aa9d01bb0::1708051960::res://.godot/exported/133200997/export-de390041baa1fa2829d2efc95c140ea5-Configuration.scn
+res://addons/gle2d/views/tabs/MapTab.tscn::df130ec86d6882f91d14f9a3484df42c::1708051960::res://.godot/exported/133200997/export-1313dbf99277bd375f5b2bff96834313-MapTab.scn
+res://addons/gle2d/views/tabs/Resources.tscn::0c93e6c5cf7e4e1263c894fa9543087a::1708051960::res://.godot/exported/133200997/export-648663124c646e3fd382c2dad5b5f907-Resources.scn
+res://addons/gle2d/views/gle2DMain.tscn::49191cbab2a7346e6e2e39b70064fc21::1708051960::res://.godot/exported/133200997/export-a98fbb381a656cb29ea60b374dda5f7f-gle2DMain.scn
