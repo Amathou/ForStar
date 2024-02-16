@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="InventoryItem" load_steps=3 format=3 uid="uid://dgxbehdyjnc7j"]
+
+[ext_resource type="Script" path="res://addons/inventory-system/core/inventory_item.gd" id="1_3nwfj"]
+[ext_resource type="Texture2D" uid="uid://buvv0p1a2xacp" path="res://Test stuff/Player_Placeholder.png" id="1_ng4pp"]
+
+[resource]
+script = ExtResource("1_3nwfj")
+id = 0
+can_stack = true
+max_stack = 64
+name = "player"
+icon = ExtResource("1_ng4pp")
+weight = 0.0
+properties = {}
+dynamic_properties = Array[String]([])
+categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([])

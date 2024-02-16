@@ -17,11 +17,11 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-InventorySystem="*res://addons/inventory-system/core/inventory_system.tscn"
+SaveSystem="*res://addons/save_system/save_system.gd"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/AsepriteWizard/plugin.cfg", "res://addons/GameGUI/plugin.cfg", "res://addons/camera_2d_plus/plugin.cfg", "res://addons/inventory-system/plugin.cfg", "res://addons/rmsmartshape/plugin.cfg")
+enabled=PackedStringArray("res://addons/AsepriteWizard/plugin.cfg", "res://addons/GameGUI/plugin.cfg", "res://addons/camera_2d_plus/plugin.cfg", "res://addons/rmsmartshape/plugin.cfg", "res://addons/save_system/plugin.cfg")
 
 [file_customization]
 

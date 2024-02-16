@@ -1,1 +1,7 @@
 res://Test stuff/main.tscn
+res://scenes/menu/menu.tscn
+res://scenes/ship_1/Ship_1.tscn
+res://Test stuff/Area2D.gd
+res://items/player.tres
+res://scenes/player/player_character.tscn
+res://UI/HotBar.tscn
