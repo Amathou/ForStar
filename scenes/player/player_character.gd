@@ -13,6 +13,7 @@ func _physics_process(_delta):
 	move_and_slide()
 	check_exit()
 	face_left()
+	menu()
 
 func check_exit():
 	if Input.is_action_pressed("ui_exit"):
@@ -23,3 +24,7 @@ func face_left():
 		sprite_2d.flip_h = true
 	if Input.is_action_pressed("ui_right"):
 		sprite_2d.flip_h = false
+
+func menu():
+	if Input.is_action_pressed("menu"):
+		get_tree().change_scene_to_file("res://scenes/menu/menu.tscn")

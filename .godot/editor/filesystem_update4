@@ -1,1 +1,6 @@
+res://scenes/ship_1/Ship_1.tscn
+res://tilemaps/main_tilemap.tres
+res://scenes/menu/menu.tscn
 res://Test stuff/main.tscn
+res://scenes/player/player_character.tscn
+res://scenes/player/player_character.gd
