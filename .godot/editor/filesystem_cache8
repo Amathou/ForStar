@@ -1,5 +1,5 @@
 6dcd580d9bf2a9dbe66cc9f994d3620b
-::res://::1708127569
+::res://::1708316904
 export_presets.cfg::TextFile::-1::1708075147::0::1::::<><>::
 icon.svg::CompressedTexture2D::5773603570562061592::1707769780::1708127511::1::::<><>::
 README.md::TextFile::-1::1708127494::0::1::::<><>::
@@ -291,23 +291,24 @@ Tool Pallet.aseprite::PackedDataContainer::3760008734867581880::1708127494::1708
 ::res://items/::1708127494
 player.tres::Resource/Resource::7627944034820114185::1708127494::0::1::::<><>::res://addons/inventory-system/core/inventory_item.gd<>uid://buvv0p1a2xacp::::res://Test stuff/Player_Placeholder.png
 ::res://scenes/::1708127494
-::res://scenes/menu/::1708074991
+::res://scenes/menu/::1708130952
 exit.png::CompressedTexture2D::438932925429418346::1707886256::1708073536::1::::<><>::
 menu.gd::GDScript::-1::1708065962::0::1::::<>Node2D<>::
-menu.tscn::PackedScene::312397375002976721::1708074991::0::1::::<><>::res://scenes/menu/menu.gd<>uid://dnoiqn8jj8nbc::::res://Test stuff/Test Background.png<>uid://djpj4rdgft8kh::::res://scenes/menu/start.png<>uid://bqrwfiivxchk3::::res://scenes/menu/settings.png<>uid://givfqj7ph02i::::res://scenes/menu/exit.png<>uid://4dh5u3fgg7ag::::res://Animations/discordSpritesheet.png
+menu.tscn::PackedScene::312397375002976721::1708130952::0::1::::<><>::res://scenes/menu/menu.gd<>uid://dnoiqn8jj8nbc::::res://Test stuff/Test Background.png<>uid://djpj4rdgft8kh::::res://scenes/menu/start.png<>uid://bqrwfiivxchk3::::res://scenes/menu/settings.png<>uid://givfqj7ph02i::::res://scenes/menu/exit.png<>uid://4dh5u3fgg7ag::::res://Animations/discordSpritesheet.png
 settings.png::CompressedTexture2D::3545881740061225260::1707886256::1708073536::1::::<><>::
 start.png::CompressedTexture2D::7822526448902076615::1707886256::1708073536::1::::<><>::
-::res://scenes/player/::1708074582
-player_character.gd::GDScript::-1::1708067460::0::1::::<>CharacterBody2D<>::
-player_character.tscn::PackedScene::1356918933831088486::1708073254::0::1::::<><>::res://scenes/player/player_character.gd<>uid://buvv0p1a2xacp::::res://Test stuff/Player_Placeholder.png
-::res://scenes/ship_1/::1708127494
-Ship_1.tscn::PackedScene::2537688302702212381::1708127494::0::1::::<><>::uid://tlkiyvc68sqg::::res://scenes/player/player_character.tscn
-::res://Test stuff/::1708127557
+::res://scenes/player/::1708131034
+player_character.gd::GDScript::-1::1708130866::0::1::::<>CharacterBody2D<>::
+player_character.tscn::PackedScene::1356918933831088486::1708131034::0::1::::<><>::res://scenes/player/player_character.gd<>uid://buvv0p1a2xacp::::res://Test stuff/Player_Placeholder.png
+::res://scenes/ship_1/::1708316469
+Ship_1.tscn::PackedScene::2537688302702212381::1708316469::0::1::::<><>::uid://tlkiyvc68sqg::::res://scenes/player/player_character.tscn<>uid://x0xrty40jgc2::::res://tilemaps/main_tilemap.tres
+::res://Test stuff/::1708130952
 Area2D.gd::GDScript::-1::1708127494::0::1::::<>Area2D<>::
-main.tscn::PackedScene::6762108269925691758::1708127557::0::1::::<><>::uid://dwkytlxa0vncu::::res://tilemaps/tilemap.png<>uid://ddjtjxvifocdj::::res://tilemaps/tilemap_collision.png<>uid://tlkiyvc68sqg::::res://scenes/player/player_character.tscn<>res://Test stuff/Area2D.gd
+main.tscn::PackedScene::6762108269925691758::1708130952::0::1::::<><>::uid://x0xrty40jgc2::::res://tilemaps/main_tilemap.tres<>uid://tlkiyvc68sqg::::res://scenes/player/player_character.tscn<>res://Test stuff/Area2D.gd
 Player_Placeholder.png::CompressedTexture2D::3834870019036874299::1708073972::1708073984::1::::<><>::
 Test Background.png::CompressedTexture2D::8101133349779526608::1706036558::1708073850::1::::<><>::
-::res://tilemaps/::1708074582
+::res://tilemaps/::1708254194
+main_tilemap.tres::TileSet::1667380733226606319::1708254194::0::1::::<><>::uid://dwkytlxa0vncu::::res://tilemaps/tilemap.png<>uid://ddjtjxvifocdj::::res://tilemaps/tilemap_collision.png
 tilemap.png::CompressedTexture2D::8725552139888803588::1708059116::1708073512::1::::<><>::
 tilemap_collision.png::CompressedTexture2D::7389578917636308983::1708059114::1708073512::1::::<><>::
 tilemap_loading.png::CompressedTexture2D::1064015473313698657::1708049194::1708073512::1::::<><>::
