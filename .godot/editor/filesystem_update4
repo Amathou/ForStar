@@ -1,10 +1,4 @@
-res://scenes/ship_1/Ship_1.tscn
-res://tilemaps/main_tilemap.tres
-res://scenes/menu/menu.tscn
-res://Test stuff/main.tscn
 res://scenes/player/player_character.tscn
-res://scenes/ship_1/CollisionShape2D.gd
-res://scenes/ship_1/ship_loader.gd
-res://scripts/Global.gd
-res://scenes/player/player_character.gd
-res://scenes/menu/menu.gd
+res://tilemaps/main_tilemap.tres
+res://Test stuff/main.tscn
+res://scenes/ship_1/Ship_1.tscn

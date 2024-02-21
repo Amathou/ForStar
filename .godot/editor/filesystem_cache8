@@ -1,6 +1,6 @@
 6dcd580d9bf2a9dbe66cc9f994d3620b
-::res://::1708549245
-export_presets.cfg::TextFile::-1::1708116026::0::1::::<><>::
+::res://::1708552475
+export_presets.cfg::TextFile::-1::1708548034::0::1::::<><>::
 icon.svg::CompressedTexture2D::5773603570562061592::1708116026::1708547851::1::::<><>::
 README.md::TextFile::-1::1708116025::0::1::::<><>::
 ::res://addons/::1708547808
@@ -216,25 +216,30 @@ save_system_test_subresource.gd::GDScript::-1::1708120474::0::1::::SaveSystemTes
 ::res://Animations/::1708116025
 discordSpritesheet.png::CompressedTexture2D::2042149285488625078::1708116025::1708116025::1::::<><>::
 ::res://scenes/::1708117942
-::res://scenes/menu/::1708549254
+::res://scenes/menu/::1708552216
 exit.png::CompressedTexture2D::438932925429418346::1708116026::1708116026::1::::<><>::
-menu.gd::GDScript::-1::1708116026::0::1::::<>Node2D<>::
+menu.gd::GDScript::-1::1708552216::0::1::::<>Node2D<>::
 menu.tscn::PackedScene::312397375002976721::1708549254::0::1::::<><>::res://scenes/menu/menu.gd<>uid://dnoiqn8jj8nbc::::res://Test stuff/Test Background.png<>uid://djpj4rdgft8kh::::res://scenes/menu/start.png<>uid://bqrwfiivxchk3::::res://scenes/menu/settings.png<>uid://givfqj7ph02i::::res://scenes/menu/exit.png<>uid://4dh5u3fgg7ag::::res://Animations/discordSpritesheet.png
 settings.png::CompressedTexture2D::3545881740061225260::1708116026::1708116026::1::::<><>::
 start.png::CompressedTexture2D::7822526448902076615::1708116026::1708116026::1::::<><>::
-::res://scenes/player/::1708549254
-player_character.gd::GDScript::-1::1708547808::0::1::::<>CharacterBody2D<>::
-player_character.tscn::PackedScene::1356918933831088486::1708549254::0::1::::<><>::res://scenes/player/player_character.gd<>uid://buvv0p1a2xacp::::res://Test stuff/Player_Placeholder.png
-::res://scenes/ship_1/::1708549254
-Ship_1.tscn::PackedScene::2537688302702212381::1708549254::0::1::::<><>::uid://tlkiyvc68sqg::::res://scenes/player/player_character.tscn<>uid://x0xrty40jgc2::::res://tilemaps/main_tilemap.tres
-::res://Test stuff/::1708549254
+::res://scenes/player/::1708552299
+player_character.gd::GDScript::-1::1708551995::0::1::::<>CharacterBody2D<>::
+player_character.tscn::PackedScene::1356918933831088486::1708552299::0::1::::<><>::res://scenes/player/player_character.gd<>uid://buvv0p1a2xacp::::res://Test stuff/Player_Placeholder.png
+::res://scenes/ship_1/::1708552216
+Area2D.gd::GDScript::-1::1708550042::0::1::::<>Area2D<>::
+CollisionShape2D.gd::GDScript::-1::1708550084::0::1::::<>CollisionShape2D<>::
+Ship_1.tscn::PackedScene::2537688302702212381::1708552216::0::1::::<><>::uid://tlkiyvc68sqg::::res://scenes/player/player_character.tscn<>uid://x0xrty40jgc2::::res://tilemaps/main_tilemap.tres<>res://scenes/ship_1/ship_loader.gd
+ship_loader.gd::GDScript::-1::1708550159::0::1::::<>Area2D<>::
+::res://scripts/::1708551995
+Global.gd::GDScript::-1::1708551995::0::1::::<>Node<>::
+::res://Test stuff/::1708552216
 Area2D.gd::GDScript::-1::1708119630::0::1::::<>Area2D<>::
-main.tscn::PackedScene::6762108269925691758::1708549254::0::1::::<><>::uid://x0xrty40jgc2::::res://tilemaps/main_tilemap.tres<>uid://tlkiyvc68sqg::::res://scenes/player/player_character.tscn<>res://Test stuff/Area2D.gd
+main.tscn::PackedScene::6762108269925691758::1708552216::0::1::::<><>::uid://x0xrty40jgc2::::res://tilemaps/main_tilemap.tres<>uid://tlkiyvc68sqg::::res://scenes/player/player_character.tscn<>res://Test stuff/Area2D.gd
 Player_Placeholder.png::CompressedTexture2D::3834870019036874299::1708116025::1708116025::1::::<><>::
 Test Background.png::CompressedTexture2D::8101133349779526608::1708116025::1708116025::1::::<><>::
-::res://tilemaps/::1708549251
-main_tilemap.tres::TileSet::1667380733226606319::1708549251::0::1::::<><>::uid://dwkytlxa0vncu::::res://tilemaps/tilemap.png<>uid://ddjtjxvifocdj::::res://tilemaps/tilemap_collision.png
+::res://tilemaps/::1708549754
+main_tilemap.tres::TileSet::1667380733226606319::1708549754::0::1::::<><>::uid://dwkytlxa0vncu::::res://tilemaps/tilemap.png<>uid://ddjtjxvifocdj::::res://tilemaps/tilemap_collision.png<>uid://77m2p1j22vgc::::res://tilemaps/tilemap-inside_items_base.png
 tilemap-inside_items_base.png::CompressedTexture2D::2312880733356831434::1708549207::1708549209::1::::<><>::
-tilemap.png::CompressedTexture2D::8725552139888803588::1708549631::1708549633::1::::<><>::
+tilemap.png::CompressedTexture2D::8725552139888803588::1708550315::1708549633::1::::<><>::
 tilemap_collision.png::CompressedTexture2D::7389578917636308983::1708116026::1708116026::1::::<><>::
 tilemap_loading.png::CompressedTexture2D::1064015473313698657::1708116026::1708116026::1::::<><>::
