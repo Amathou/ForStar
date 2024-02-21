@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cvtpodmx8q1ok"
-path="res://.godot/imported/TILEMAP EXAMPLE.png-7d4bd0df8beef4d30a9360fcbc0da00c.ctex"
+uid="uid://77m2p1j22vgc"
+path="res://.godot/imported/tilemap-inside_items_base.png-12150cc00df3c830ada0376107442369.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://ART ASSETS FOR SOPH/Tile Map/TILEMAP EXAMPLE.png"
-dest_files=["res://.godot/imported/TILEMAP EXAMPLE.png-7d4bd0df8beef4d30a9360fcbc0da00c.ctex"]
+source_file="res://tilemaps/tilemap-inside_items_base.png"
+dest_files=["res://.godot/imported/tilemap-inside_items_base.png-12150cc00df3c830ada0376107442369.ctex"]
 
 [params]
 

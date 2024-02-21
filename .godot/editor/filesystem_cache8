@@ -1,5 +1,5 @@
 6dcd580d9bf2a9dbe66cc9f994d3620b
-::res://::1708547850
+::res://::1708549245
 export_presets.cfg::TextFile::-1::1708116026::0::1::::<><>::
 icon.svg::CompressedTexture2D::5773603570562061592::1708116026::1708547851::1::::<><>::
 README.md::TextFile::-1::1708116025::0::1::::<><>::
@@ -72,10 +72,10 @@ source_drop_button.tscn::PackedScene::7845876279114352826::1708116025::0::1::::<
 plugin.cfg::TextFile::-1::1708116026::0::1::::<><>::
 plugin_handler.gd::GDScript::-1::1708116026::0::1::::<>EditorPlugin<>::
 ::res://addons/camera_2d_plus/images/::1708116026
-::res://addons/camera_2d_plus/images/node_icons/::1708116026
+::res://addons/camera_2d_plus/images/node_icons/::1708547851
 camera_2d_plus_icon.png::CompressedTexture2D::6989297184957306310::1708116026::1708116026::1::::<><>::
 camera_2d_plus_icon.svg::CompressedTexture2D::9138129849890561267::1708116026::1708547851::1::::<><>::
-::res://addons/camera_2d_plus/images/plugin_icon/::1708116026
+::res://addons/camera_2d_plus/images/plugin_icon/::1708547851
 plugin_icon.png::CompressedTexture2D::3783267919716899171::1708116026::1708116026::1::::<><>::
 plugin_icon.svg::CompressedTexture2D::8894793144852569507::1708116026::1708547851::1::::<><>::
 ::res://addons/camera_2d_plus/objects/::1708116026
@@ -102,7 +102,7 @@ GGTextureRect.gd::GDScript::-1::1708116026::0::1::::GGTextureRect<>TextureRect<>
 GGVBox.gd::GDScript::-1::1708116026::0::1::::GGVBox<>GGComponent<>::
 plugin.cfg::TextFile::-1::1708116026::0::1::::<><>::
 plugin.gd::GDScript::-1::1708116026::0::1::::<>EditorPlugin<>::
-::res://addons/GameGUI/Icons/::1708116026
+::res://addons/GameGUI/Icons/::1708547851
 GGButton.svg::CompressedTexture2D::7179911481186927526::1708116026::1708547851::1::::<><>::
 GGComponent.svg::CompressedTexture2D::2582759687811696311::1708116026::1708547851::1::::<><>::
 GGFiller.svg::CompressedTexture2D::2074372250803616113::1708116026::1708547851::1::::<><>::
@@ -145,7 +145,7 @@ action_open_shape.gd::GDScript::-1::1708116026::0::1::::<>SS2D_Action<>::
 action_set_pivot.gd::GDScript::-1::1708116026::0::1::::<>SS2D_Action<>::
 action_split_curve.gd::GDScript::-1::1708116026::0::1::::<>SS2D_Action<>::
 action_split_shape.gd::GDScript::-1::1708116026::0::1::::<>SS2D_Action<>::
-::res://addons/rmsmartshape/assets/::1708116026
+::res://addons/rmsmartshape/assets/::1708547851
 Anchor.svg::CompressedTexture2D::4297979011371281991::1708116026::1708547851::1::::<><>::
 CenterView.svg::CompressedTexture2D::4120058092302796968::1708116026::1708547851::1::::<><>::
 closed_shape.png::CompressedTexture2D::2353128964106326528::1708116026::1708116026::1::::<><>::
@@ -215,102 +215,26 @@ save_system_test_resource.gd::GDScript::-1::1708120474::0::1::::SaveSystemTestRe
 save_system_test_subresource.gd::GDScript::-1::1708120474::0::1::::SaveSystemTestSubresource<>Resource<>::
 ::res://Animations/::1708116025
 discordSpritesheet.png::CompressedTexture2D::2042149285488625078::1708116025::1708116025::1::::<><>::
-::res://ART ASSETS FOR SOPH/::1708116025
-::res://ART ASSETS FOR SOPH/BASES/::1708116025
-Base Window.aseprite::PackedDataContainer::6785976050635473221::1708116025::1708116025::1::::<><>::
-::res://ART ASSETS FOR SOPH/GRASS & DIRT/::1708116025
-Center Grass Tile .aseprite::PackedDataContainer::8431219028155612293::1708116025::1708116025::1::::<><>::
-Dirt Back.aseprite::PackedDataContainer::8479938054923845515::1708116025::1708116025::1::::<><>::
-Dirt Front.aseprite::PackedDataContainer::7001477374758586547::1708116025::1708116025::1::::<><>::
-Dirt.aseprite::PackedDataContainer::6325718752059687822::1708116025::1708116025::1::::<><>::
-Edge Grass Tile.aseprite::PackedDataContainer::4056533921512195759::1708116025::1708116025::1::::<><>::
-::res://ART ASSETS FOR SOPH/HB Assets/::1708116025
-HB Door.aseprite::PackedDataContainer::1060627199151311205::1708116025::1708116025::1::::<><>::
-Home-Base.aseprite::PackedDataContainer::6087277489506809484::1708116025::1708116025::1::::<><>::
-::res://ART ASSETS FOR SOPH/Ores/::1708116025
-::res://ART ASSETS FOR SOPH/Ores/Copper Stuff/::1708116025
-Copper Form.aseprite::PackedDataContainer::2734244142946336681::1708116025::1708116025::1::::<><>::
-Copper Raw.aseprite::PackedDataContainer::954488154660400055::1708116025::1708116025::1::::<><>::
-::res://ART ASSETS FOR SOPH/Ores/Duracite Stuff/::1708116025
-Duracite Form.aseprite::PackedDataContainer::2520808715215355792::1708116025::1708116025::1::::<><>::
-Duracite Raw.aseprite::PackedDataContainer::7816323482398469896::1708116025::1708116025::1::::<><>::
-::res://ART ASSETS FOR SOPH/Ores/Hyperionite Stuff/::1708116025
-Hyperionite Form.aseprite::PackedDataContainer::8201484497665359103::1708116025::1708116025::1::::<><>::
-Hyperionite Raw.aseprite::PackedDataContainer::3200831987904146634::1708116025::1708116025::1::::<><>::
-::res://ART ASSETS FOR SOPH/Ores/Seldonite Stuff/::1708116025
-Seldonite Form.aseprite::PackedDataContainer::943421571635059159::1708116025::1708116025::1::::<><>::
-Seldonite Raw.aseprite::PackedDataContainer::3545908211754733021::1708116025::1708116025::1::::<><>::
-::res://ART ASSETS FOR SOPH/Ores/Silver Stuff/::1708116025
-Silver Form.aseprite::PackedDataContainer::6033675679184409407::1708116025::1708116025::1::::<><>::
-Silver Raw.aseprite::PackedDataContainer::2304497358765437657::1708116025::1708116025::1::::<><>::
-::res://ART ASSETS FOR SOPH/Ores/Silver-Steel Stuff/::1708116025
-Silver-Steel Form.aseprite::PackedDataContainer::1792807859870447317::1708116025::1708116025::1::::<><>::
-Silver-Steel Raw.aseprite::PackedDataContainer::1363712676957514343::1708116025::1708116025::1::::<><>::
-::res://ART ASSETS FOR SOPH/Ores/Terracite Stuff/::1708116025
-Terracite Form.aseprite::PackedDataContainer::3432936813764366547::1708116025::1708116025::1::::<><>::
-Terracite Raw.aseprite::PackedDataContainer::5435208314654060373::1708116025::1708116025::1::::<><>::
-::res://ART ASSETS FOR SOPH/Ores/Titanite Stuff/::1708116025
-Titanite Form.aseprite::PackedDataContainer::382377586267550410::1708116025::1708116025::1::::<><>::
-Titanite Raw.aseprite::PackedDataContainer::7905939610954096050::1708116025::1708116025::1::::<><>::
-::res://ART ASSETS FOR SOPH/TESTS/::1708116025
-Grassss.aseprite::PackedDataContainer::7585527293196743813::1708116025::1708116025::1::::<><>::
-Test Background.aseprite::PackedDataContainer::2437313069106650949::1708116025::1708116025::1::::<><>::
-Test Game Setting.aseprite::PackedDataContainer::1173561248708317904::1708116025::1708116025::1::::<><>::
-Test Slime.aseprite::PackedDataContainer::6429940603908700988::1708116025::1708116025::1::::<><>::
-Test Sprite.aseprite::PackedDataContainer::6068858006927288636::1708116025::1708116025::1::::<><>::
-::res://ART ASSETS FOR SOPH/Tile Map/::1708116025
-explanation.txt::TextFile::-1::1708116025::0::1::::<><>::
-TILEMAP EXAMPLE.png::CompressedTexture2D::6286966194315660094::1708116025::1708116025::1::::<><>::
-tilemap.png::CompressedTexture2D::1937715427688661756::1708116025::1708116025::1::::<><>::
-tilemap_collision.png::CompressedTexture2D::6306056408836514446::1708116025::1708116025::1::::<><>::
-tilemap_loading.png::CompressedTexture2D::6612499481709996610::1708116025::1708116025::1::::<><>::
-::res://ART ASSETS FOR SOPH/Tools/::1708116025
-Color Swatches .aseprite::PackedDataContainer::8701699619572644140::1708116025::1708116025::1::::<><>::
-Copper Axe.aseprite::PackedDataContainer::3610894658146425235::1708116025::1708116025::1::::<><>::
-Copper Pick.aseprite::PackedDataContainer::4240793794551664631::1708116025::1708116025::1::::<><>::
-Copper Shovel.aseprite::PackedDataContainer::4106803699698847501::1708116025::1708116025::1::::<><>::
-Duracite Axe.aseprite::PackedDataContainer::1418798237114084525::1708116025::1708116025::1::::<><>::
-Duracite Ham.aseprite::PackedDataContainer::6484937750599132163::1708116025::1708116025::1::::<><>::
-Duracite Shovel.aseprite::PackedDataContainer::2325144365913237846::1708116025::1708116025::1::::<><>::
-Hyperionite Pick.aseprite::PackedDataContainer::1382244260961577866::1708116025::1708116025::1::::<><>::
-Seldonite Pickaxe.aseprite::PackedDataContainer::2540209771968907849::1708116025::1708116025::1::::<><>::
-Silver Axe.aseprite::PackedDataContainer::5881315318014055794::1708116025::1708116025::1::::<><>::
-Silver Pick.aseprite::PackedDataContainer::2263151313508232283::1708116025::1708116025::1::::<><>::
-Silver Shovel.aseprite::PackedDataContainer::1659549001741247308::1708116025::1708116025::1::::<><>::
-Silver Steel Axe.aseprite::PackedDataContainer::7031679354027673121::1708116025::1708116025::1::::<><>::
-Silver Steel Pick.aseprite::PackedDataContainer::5630564801438217700::1708116025::1708116025::1::::<><>::
-Silver Steel Shovel.aseprite::PackedDataContainer::3302299105625478914::1708116025::1708116025::1::::<><>::
-Steel Pick.aseprite::PackedDataContainer::6961640673380801719::1708116025::1708116025::1::::<><>::
-Terracite Axe.aseprite::PackedDataContainer::3605749298173136192::1708116025::1708116025::1::::<><>::
-Terracite Pick.aseprite::PackedDataContainer::8758693192646723842::1708116025::1708116025::1::::<><>::
-Terracite Shovel.aseprite::PackedDataContainer::2178099827561742058::1708116025::1708116025::1::::<><>::
-Titanite Axe.aseprite::PackedDataContainer::9035110363753393894::1708116025::1708116025::1::::<><>::
-Titanite Pick.aseprite::PackedDataContainer::8413793518694956736::1708116025::1708116025::1::::<><>::
-Titanite Shovel.aseprite::PackedDataContainer::174007351308838670::1708116025::1708116025::1::::<><>::
-Tool Pallet.aseprite::PackedDataContainer::3760008734867581880::1708116025::1708116025::1::::<><>::
-::res://items/::1708120251
-player.tres::Resource/InventoryItem::7627944034820114185::1708120251::0::1::::<><>::res://addons/inventory-system/core/inventory_item.gd<>uid://buvv0p1a2xacp::::res://Test stuff/Player_Placeholder.png
 ::res://scenes/::1708117942
-::res://scenes/menu/::1708120800
+::res://scenes/menu/::1708549254
 exit.png::CompressedTexture2D::438932925429418346::1708116026::1708116026::1::::<><>::
 menu.gd::GDScript::-1::1708116026::0::1::::<>Node2D<>::
-menu.tscn::PackedScene::312397375002976721::1708120800::0::1::::<><>::res://scenes/menu/menu.gd<>uid://dnoiqn8jj8nbc::::res://Test stuff/Test Background.png<>uid://djpj4rdgft8kh::::res://scenes/menu/start.png<>uid://bqrwfiivxchk3::::res://scenes/menu/settings.png<>uid://givfqj7ph02i::::res://scenes/menu/exit.png<>uid://4dh5u3fgg7ag::::res://Animations/discordSpritesheet.png
+menu.tscn::PackedScene::312397375002976721::1708549254::0::1::::<><>::res://scenes/menu/menu.gd<>uid://dnoiqn8jj8nbc::::res://Test stuff/Test Background.png<>uid://djpj4rdgft8kh::::res://scenes/menu/start.png<>uid://bqrwfiivxchk3::::res://scenes/menu/settings.png<>uid://givfqj7ph02i::::res://scenes/menu/exit.png<>uid://4dh5u3fgg7ag::::res://Animations/discordSpritesheet.png
 settings.png::CompressedTexture2D::3545881740061225260::1708116026::1708116026::1::::<><>::
 start.png::CompressedTexture2D::7822526448902076615::1708116026::1708116026::1::::<><>::
-::res://scenes/player/::1708547808
+::res://scenes/player/::1708549254
 player_character.gd::GDScript::-1::1708547808::0::1::::<>CharacterBody2D<>::
-player_character.tscn::PackedScene::1356918933831088486::1708547808::0::1::::<><>::res://scenes/player/player_character.gd<>uid://buvv0p1a2xacp::::res://Test stuff/Player_Placeholder.png
-::res://scenes/ship_1/::1708547808
-Ship_1.tscn::PackedScene::2537688302702212381::1708547808::0::1::::<><>::uid://tlkiyvc68sqg::::res://scenes/player/player_character.tscn<>uid://x0xrty40jgc2::::res://tilemaps/main_tilemap.tres
-::res://Test stuff/::1708547808
+player_character.tscn::PackedScene::1356918933831088486::1708549254::0::1::::<><>::res://scenes/player/player_character.gd<>uid://buvv0p1a2xacp::::res://Test stuff/Player_Placeholder.png
+::res://scenes/ship_1/::1708549254
+Ship_1.tscn::PackedScene::2537688302702212381::1708549254::0::1::::<><>::uid://tlkiyvc68sqg::::res://scenes/player/player_character.tscn<>uid://x0xrty40jgc2::::res://tilemaps/main_tilemap.tres
+::res://Test stuff/::1708549254
 Area2D.gd::GDScript::-1::1708119630::0::1::::<>Area2D<>::
-main.tscn::PackedScene::6762108269925691758::1708547808::0::1::::<><>::uid://x0xrty40jgc2::::res://tilemaps/main_tilemap.tres<>uid://tlkiyvc68sqg::::res://scenes/player/player_character.tscn<>res://Test stuff/Area2D.gd
+main.tscn::PackedScene::6762108269925691758::1708549254::0::1::::<><>::uid://x0xrty40jgc2::::res://tilemaps/main_tilemap.tres<>uid://tlkiyvc68sqg::::res://scenes/player/player_character.tscn<>res://Test stuff/Area2D.gd
 Player_Placeholder.png::CompressedTexture2D::3834870019036874299::1708116025::1708116025::1::::<><>::
 Test Background.png::CompressedTexture2D::8101133349779526608::1708116025::1708116025::1::::<><>::
-::res://tilemaps/::1708547808
-main_tilemap.tres::TileSet::1667380733226606319::1708547808::0::1::::<><>::uid://dwkytlxa0vncu::::res://tilemaps/tilemap.png<>uid://ddjtjxvifocdj::::res://tilemaps/tilemap_collision.png
-tilemap.png::CompressedTexture2D::8725552139888803588::1708116026::1708116026::1::::<><>::
+::res://tilemaps/::1708549251
+main_tilemap.tres::TileSet::1667380733226606319::1708549251::0::1::::<><>::uid://dwkytlxa0vncu::::res://tilemaps/tilemap.png<>uid://ddjtjxvifocdj::::res://tilemaps/tilemap_collision.png
+tilemap-inside_items_base.png::CompressedTexture2D::2312880733356831434::1708549207::1708549209::1::::<><>::
+tilemap.png::CompressedTexture2D::8725552139888803588::1708549631::1708549633::1::::<><>::
 tilemap_collision.png::CompressedTexture2D::7389578917636308983::1708116026::1708116026::1::::<><>::
 tilemap_loading.png::CompressedTexture2D::1064015473313698657::1708116026::1708116026::1::::<><>::
-::res://UI/::1708120608
-HotBar.tscn::PackedScene::7944468610940995690::1708120608::0::1::::<><>::

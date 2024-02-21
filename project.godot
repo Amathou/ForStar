@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="ForStar"
+config/version="Pre-Alpha 0.02"
 run/main_scene="res://scenes/menu/menu.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
@@ -26,7 +27,6 @@ enabled=PackedStringArray("res://addons/AsepriteWizard/plugin.cfg", "res://addon
 [file_customization]
 
 folder_colors={
-"res://ART ASSETS FOR SOPH/": "red",
 "res://addons/": "red"
 }
 
@@ -79,6 +79,11 @@ menu={
 ]
 }
 
+[physics]
+
+2d/default_gravity=0.0
+
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="gl_compatibility"

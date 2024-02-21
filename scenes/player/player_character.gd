@@ -11,13 +11,9 @@ func get_input():
 func _physics_process(_delta):
 	get_input()
 	move_and_slide()
-	check_exit()
 	face_left()
 	menu()
-
-func check_exit():
-	if Input.is_action_pressed("ui_exit"):
-		get_tree().quit()
+	check_exit()
 
 func face_left():
 	if Input.is_action_pressed("ui_left"):
@@ -28,3 +24,7 @@ func face_left():
 func menu():
 	if Input.is_action_pressed("menu"):
 		get_tree().change_scene_to_file("res://scenes/menu/menu.tscn")
+
+func check_exit():
+	if Input.is_action_pressed("ui_exit"):
+		get_tree().quit()
