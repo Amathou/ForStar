@@ -1,14 +1,22 @@
-[gd_scene load_steps=3 format=3 uid="uid://cu3j31n8wff4c"]
+[gd_scene load_steps=4 format=3 uid="uid://cu3j31n8wff4c"]
 
 [ext_resource type="TileSet" uid="uid://x0xrty40jgc2" path="res://tilemaps/main_tilemap.tres" id="1_sasuk"]
 [ext_resource type="PackedScene" uid="uid://tlkiyvc68sqg" path="res://scenes/player/player_character.tscn" id="2_cirmt"]
+[ext_resource type="TileSet" uid="uid://dmhleaee6vb7x" path="res://tilemaps/furnature/furniture.tres" id="2_j7nib"]
 
 [node name="Interior" type="Node"]
 
 [node name="TileMap" type="TileMap" parent="."]
-scale = Vector2(2, 2)
+scale = Vector2(3, 3)
 tile_set = ExtResource("1_sasuk")
 format = 2
-layer_0/tile_data = PackedInt32Array(-131076, 2, 2, -131075, 2, 0, -131074, 65538, 0, -131073, 131074, 0, -196608, 196610, 0, -196607, 2, 2, -131071, 2, 2, -131070, 2, 2, -196606, 2, 2, -65534, 262146, 0, 2, 262146, 1, 65538, 262146, 2, 131074, 2, 2, 196610, 2, 2, 196609, 2, 2, 196608, 2, 2, 262143, 2, 2, 262142, 2, 2, 262141, 2, 2, 262140, 2, 2, 196604, 2, 2, 131068, 2, 2, 65532, 2, 2, -4, 2, 2, -65540, 2, 2, -65539, 2, 1, -65538, 65538, 1, -65537, 131074, 1, -131072, 196610, 1, -65535, 2, 2, -65536, 2, 2, -1, 2, 2, -2, 2, 2, -3, 2, 2, 65533, 2, 2, 65534, 2, 2, 65535, 2, 2, 0, 2, 2, 1, 2, 2, 65537, 2, 2, 65536, 2, 2, 131071, 2, 2, 131070, 2, 2, 131069, 2, 2, 196605, 2, 2, 196606, 2, 2, 196607, 2, 2, 131072, 2, 2, 131073, 2, 2, -196605, 2, 2, -131069, 2, 2, -65533, 327682, 0, 3, 327682, 1, 65539, 327682, 2, 131075, 2, 2, 196611, 2, 2, 327676, 2, 2, 327677, 2, 2, 327678, 2, 2, 327679, 2, 2, 262144, 2, 2, 262145, 2, 2, 262146, 2, 2, 262147, 2, 2)
+
+[node name="ship_furniture" type="TileMap" parent="."]
+scale = Vector2(1.5, 1.5)
+tile_set = ExtResource("2_j7nib")
+format = 2
+layer_0/name = "furnature"
+layer_0/tile_data = PackedInt32Array(-131075, 0, 1, -131074, 65536, 1, -131073, 131072, 1, -196608, 196608, 1, -196611, 0, 0, -196610, 65536, 0, -196609, 131072, 0, -262144, 196608, 0, -131069, 262144, 805306370, -65533, 262144, 805306369, 3, 262144, 805306368, -131070, 327680, 805306370, -65534, 327680, 805306369, 2, 327680, 805306368)
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("2_cirmt")]
+position = Vector2(16, -8)

@@ -1,17 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://c3lu62fbkg4f7"]
+[gd_scene load_steps=3 format=3 uid="uid://c3lu62fbkg4f7"]
 
 [ext_resource type="TileSet" uid="uid://x0xrty40jgc2" path="res://tilemaps/main_tilemap.tres" id="1_5d3oo"]
 [ext_resource type="PackedScene" uid="uid://tlkiyvc68sqg" path="res://scenes/player/player_character.tscn" id="5_b8k7y"]
-[ext_resource type="Script" path="res://Test stuff/Area2D.gd" id="5_p5dqp"]
-
-[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_l4yik"]
-bounce = 0.5
-
-[sub_resource type="CircleShape2D" id="CircleShape2D_08l5k"]
-radius = 100.125
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_bcf71"]
-size = Vector2(20, 132)
 
 [node name="Node" type="Node"]
 
@@ -24,23 +14,3 @@ layer_0/tile_data = PackedInt32Array(0, 131073, 1, 1, 1, 0, 2, 1, 0, 3, 1, 0, 4,
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("5_b8k7y")]
 position = Vector2(1317, 635)
-
-[node name="RigidBody2D" type="RigidBody2D" parent="."]
-collision_layer = 2
-physics_material_override = SubResource("PhysicsMaterial_l4yik")
-gravity_scale = 0.0
-linear_damp = 1.428
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D"]
-position = Vector2(488, 368)
-shape = SubResource("CircleShape2D_08l5k")
-debug_color = Color(0, 0.6, 0.701961, 0.419608)
-
-[node name="Area2D" type="Area2D" parent="."]
-script = ExtResource("5_p5dqp")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(1402, 696)
-shape = SubResource("RectangleShape2D_bcf71")
-
-[connection signal="body_entered" from="Area2D" to="Area2D" method="_on_body_entered"]
