@@ -1,2 +1,4 @@
 res://scenes/ship_1/Ship_1.tscn
 res://tilemaps/main_tilemap.tres
+res://scenes/ship_1/Interior/interior.tscn
+res://scenes/ship_1/ship_loader.gd
