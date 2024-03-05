@@ -27,5 +27,22 @@ script = ExtResource("3_owohb")
 position = Vector2(1392, 688)
 shape = SubResource("RectangleShape2D_fjcsq")
 
+[node name="TEMP DEV" type="Node" parent="."]
+
+[node name="TextEdit" type="TextEdit" parent="TEMP DEV"]
+offset_left = 296.0
+offset_top = 344.0
+offset_right = 400.0
+offset_bottom = 384.0
+text = "ship interior"
+editable = false
+context_menu_enabled = false
+shortcut_keys_enabled = false
+selecting_enabled = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+virtual_keyboard_enabled = false
+middle_mouse_paste_enabled = false
+
 [connection signal="body_entered" from="inside_ship_load" to="inside_ship_load" method="_on_body_entered"]
 [connection signal="body_exited" from="inside_ship_load" to="inside_ship_load" method="_on_body_exited"]
