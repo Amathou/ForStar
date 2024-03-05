@@ -1,9 +1,64 @@
-[gd_scene load_steps=3 format=3 uid="uid://c3lu62fbkg4f7"]
+[gd_scene load_steps=8 format=3 uid="uid://c3lu62fbkg4f7"]
 
 [ext_resource type="TileSet" uid="uid://x0xrty40jgc2" path="res://tilemaps/main_tilemap.tres" id="1_5d3oo"]
+[ext_resource type="Script" path="res://scenes/ship_1/interior_load.gd" id="3_1pfao"]
+[ext_resource type="Script" path="res://Test stuff/load_ship.gd" id="3_2p7ca"]
+[ext_resource type="Texture2D" uid="uid://coi1n32py3h1i" path="res://icon.svg" id="4_uiq8o"]
 [ext_resource type="PackedScene" uid="uid://tlkiyvc68sqg" path="res://scenes/player/player_character.tscn" id="5_b8k7y"]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7xgct"]
+size = Vector2(48, 48)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lfthy"]
+size = Vector2(40, 41)
+
 [node name="Node" type="Node"]
+
+[node name="dev temp" type="Node" parent="."]
+
+[node name="TextEdit2" type="TextEdit" parent="dev temp"]
+offset_left = 556.0
+offset_top = 646.0
+offset_right = 789.0
+offset_bottom = 703.0
+text = "texture tester"
+editable = false
+shortcut_keys_enabled = false
+selecting_enabled = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+virtual_keyboard_enabled = false
+middle_mouse_paste_enabled = false
+
+[node name="TextEdit" type="TextEdit" parent="dev temp"]
+offset_left = 1408.0
+offset_top = 320.0
+offset_right = 1630.0
+offset_bottom = 369.0
+text = "loading zone to ship area"
+editable = false
+context_menu_enabled = false
+shortcut_keys_enabled = false
+selecting_enabled = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+virtual_keyboard_enabled = false
+middle_mouse_paste_enabled = false
+
+[node name="TextEdit3" type="TextEdit" parent="dev temp"]
+offset_left = 1632.0
+offset_top = 320.0
+offset_right = 1736.0
+offset_bottom = 368.0
+text = "ship interior"
+editable = false
+context_menu_enabled = false
+shortcut_keys_enabled = false
+selecting_enabled = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+virtual_keyboard_enabled = false
+middle_mouse_paste_enabled = false
 
 [node name="TileMap" type="TileMap" parent="."]
 texture_filter = 1
@@ -14,3 +69,35 @@ layer_0/tile_data = PackedInt32Array(0, 131073, 1, 1, 1, 0, 2, 1, 0, 3, 1, 0, 4,
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("5_b8k7y")]
 position = Vector2(1317, 635)
+
+[node name="loaders" type="Node" parent="."]
+
+[node name="inside_ship_load" type="Area2D" parent="loaders"]
+position = Vector2(-1032, -280)
+script = ExtResource("3_1pfao")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="loaders/inside_ship_load"]
+position = Vector2(2712, 672)
+shape = SubResource("RectangleShape2D_7xgct")
+
+[node name="Sprite2D" type="Sprite2D" parent="loaders/inside_ship_load/CollisionShape2D"]
+position = Vector2(2.19345e-05, 0)
+scale = Vector2(0.375, 0.375)
+texture = ExtResource("4_uiq8o")
+
+[node name="load_ship" type="Area2D" parent="loaders"]
+script = ExtResource("3_2p7ca")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="loaders/load_ship"]
+position = Vector2(1519, 389)
+shape = SubResource("RectangleShape2D_lfthy")
+
+[node name="Sprite2D" type="Sprite2D" parent="loaders/load_ship/CollisionShape2D"]
+position = Vector2(4.95911e-05, -1.52588e-05)
+scale = Vector2(0.312501, 0.328125)
+texture = ExtResource("4_uiq8o")
+
+[connection signal="body_entered" from="loaders/inside_ship_load" to="loaders/inside_ship_load" method="_on_body_entered"]
+[connection signal="body_exited" from="loaders/inside_ship_load" to="loaders/inside_ship_load" method="_on_body_exited"]
+[connection signal="body_entered" from="loaders/load_ship" to="loaders/load_ship" method="_on_body_entered"]
+[connection signal="body_exited" from="loaders/load_ship" to="loaders/load_ship" method="_on_body_exited"]

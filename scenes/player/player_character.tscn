@@ -21,3 +21,39 @@ shape = SubResource("RectangleShape2D_1duru")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(1.385, 1.385)
+
+[node name="TextEdit" type="TextEdit" parent="Camera2D"]
+offset_left = 148.0
+offset_top = -116.0
+offset_right = 336.0
+offset_bottom = -76.0
+scale = Vector2(0.319528, 0.5)
+size_flags_horizontal = 8
+theme_override_font_sizes/font_size = 0
+text = "press p for main menu"
+editable = false
+context_menu_enabled = false
+shortcut_keys_enabled = false
+selecting_enabled = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+virtual_keyboard_enabled = false
+middle_mouse_paste_enabled = false
+
+[node name="TextEdit2" type="TextEdit" parent="Camera2D"]
+offset_left = 136.0
+offset_top = -96.0
+offset_right = 362.0
+offset_bottom = -56.0
+scale = Vector2(0.319528, 0.5)
+size_flags_horizontal = 8
+theme_override_font_sizes/font_size = 0
+text = "press enter for loading zone"
+editable = false
+context_menu_enabled = false
+shortcut_keys_enabled = false
+selecting_enabled = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+virtual_keyboard_enabled = false
+middle_mouse_paste_enabled = false

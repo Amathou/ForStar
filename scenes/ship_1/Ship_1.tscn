@@ -1,7 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://bcfjmdb5rjbq8"]
+[gd_scene load_steps=5 format=3 uid="uid://bcfjmdb5rjbq8"]
 
 [ext_resource type="PackedScene" uid="uid://tlkiyvc68sqg" path="res://scenes/player/player_character.tscn" id="1_q6u7l"]
 [ext_resource type="TileSet" uid="uid://x0xrty40jgc2" path="res://tilemaps/main_tilemap.tres" id="2_yt6t6"]
+[ext_resource type="Script" path="res://scenes/ship_1/interior_load.gd" id="3_owohb"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fjcsq"]
+size = Vector2(48, 48)
 
 [node name="Ship1" type="Node"]
 
@@ -14,3 +18,14 @@ layer_0/tile_data = PackedInt32Array(65538, 65536, 0, 131074, 65536, 0, 196610, 
 
 [node name="player" parent="." instance=ExtResource("1_q6u7l")]
 position = Vector2(416, 234)
+
+[node name="inside_ship_load" type="Area2D" parent="."]
+position = Vector2(-1032, -280)
+script = ExtResource("3_owohb")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="inside_ship_load"]
+position = Vector2(1392, 688)
+shape = SubResource("RectangleShape2D_fjcsq")
+
+[connection signal="body_entered" from="inside_ship_load" to="inside_ship_load" method="_on_body_entered"]
+[connection signal="body_exited" from="inside_ship_load" to="inside_ship_load" method="_on_body_exited"]
