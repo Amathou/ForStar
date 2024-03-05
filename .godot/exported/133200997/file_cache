@@ -5,7 +5,7 @@ res://addons/rmsmartshape/editors/NormalRangeEditor/NormalRangeEditor.tscn::8b38
 res://addons/rmsmartshape/scenes/GUI_Edge_InfoPanel.tscn::11b143e227d9a64e3671656e2f76bcb4::1709596628::res://.godot/exported/133200997/export-c67a578f0c816ad4b18fd67e5613bdcf-GUI_Edge_InfoPanel.scn
 res://addons/rmsmartshape/scenes/GUI_InfoPanel.tscn::3f2ba6f6c474298b825651492ee67add::1709596628::res://.godot/exported/133200997/export-09f29b022e1d05074ffe744dd88105e9-GUI_InfoPanel.scn
 res://addons/rmsmartshape/scenes/SnapPopup.tscn::d19bebadc4f124dc9d53ba8d61ca01d5::1709596628::res://.godot/exported/133200997/export-b9ae292a4067aa0f9d5071e56165c596-SnapPopup.scn
-res://Test stuff/main.tscn::3c887f64d7aae65fd7d672cc063586dc::1709603697::res://.godot/exported/133200997/export-37c75df2814e61edf61003831b76086e-main.scn
+res://Test stuff/main.tscn::3c887f64d7aae65fd7d672cc063586dc::1709603894::res://.godot/exported/133200997/export-37c75df2814e61edf61003831b76086e-main.scn
 res://addons/AsepriteWizard/config/config_dialog.tscn::f9f10209f72dc4894486f6bedcab5811::1709596628::res://.godot/exported/133200997/export-a0f27e14ae530993ecc493e2339c0c90-config_dialog.scn
 res://addons/AsepriteWizard/interface/docks/animated_sprite/animated_sprite_inspector_dock.tscn::69082949d8e9f99d4f8143f08df55155::1709596628::res://.godot/exported/133200997/export-41a774a42caea9ec408b57603766502b-animated_sprite_inspector_dock.scn
 res://addons/AsepriteWizard/interface/docks/sprite/sprite_inspector_dock.tscn::25775192f661b53a3f476e71f83bfdf1::1709596628::res://.godot/exported/133200997/export-97898afaa711e4885c5f65bd9cd6e4c7-sprite_inspector_dock.scn
@@ -21,7 +21,7 @@ res://addons/AsepriteWizard/interface/docks/dock_fields.tscn::d632d2341e0eaccdd4
 res://addons/AsepriteWizard/interface/shared/animation_player_drop_button.tscn::e4233eab2adcfcd6589a63d68d6730f4::1709596628::res://.godot/exported/133200997/export-b438e1f49ffec5c140bc30d5940a1fcd-animation_player_drop_button.scn
 res://addons/AsepriteWizard/interface/shared/dir_drop_button.tscn::3ab69fa33e756e0270d99efcfe28f7fe::1709596628::res://.godot/exported/133200997/export-f7f58b4bacdd19133cb1b7874b32c31c-dir_drop_button.scn
 res://addons/AsepriteWizard/interface/shared/source_drop_button.tscn::08cb05212b2b2077bcff5f07a923f859::1709596628::res://.godot/exported/133200997/export-47fb6e35cef976bbf25696d481484390-source_drop_button.scn
-res://scenes/ship_1/Ship_1.tscn::a2281b2dcaa2641f1aa728dce2611f82::1709603697::res://.godot/exported/133200997/export-1161ea936951e6836a051bc719958aa8-Ship_1.scn
-res://tilemaps/main_tilemap.tres::153789015908cd21d1d542e6e69525d8::1709596651::res://.godot/exported/133200997/export-d1a7b2b0c81c71e19c3a671bc89b28ed-main_tilemap.res
+res://scenes/ship_1/Ship_1.tscn::0280f66fe13f9d92736b45a59966ae71::1709604235::res://.godot/exported/133200997/export-1161ea936951e6836a051bc719958aa8-Ship_1.scn
+res://tilemaps/main_tilemap.tres::153789015908cd21d1d542e6e69525d8::1709604235::res://.godot/exported/133200997/export-d1a7b2b0c81c71e19c3a671bc89b28ed-main_tilemap.res
 res://scenes/ship_1/Interior/interior.tscn::ffe9222392c5aca795132083be05f9ba::1709603697::res://.godot/exported/133200997/export-c064bb5616d6d901701906fb55354083-interior.scn
-res://tilemaps/furnature/furniture.tres::7181f7affd96be635503fe3004e55368::1709596651::res://.godot/exported/133200997/export-6eb6d3e403118f63f532d4292630667f-furniture.res
+res://tilemaps/furnature/furniture.tres::7181f7affd96be635503fe3004e55368::1709604235::res://.godot/exported/133200997/export-6eb6d3e403118f63f532d4292630667f-furniture.res
