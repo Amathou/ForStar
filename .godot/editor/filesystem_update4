@@ -1,7 +1,7 @@
-res://Test stuff/main.tscn
+res://scenes/player/player_character.tscn
 res://tilemaps/main_tilemap.tres
 res://tilemaps/furnature/furniture.tres
 res://scenes/ship_1/Interior/interior.tscn
+res://Test stuff/main.tscn
 res://scenes/ship_1/Ship_1.tscn
 res://scenes/menu/menu.tscn
-res://scenes/player/player_character.tscn
