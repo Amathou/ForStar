@@ -1,8 +1,9 @@
 [gd_scene load_steps=4 format=3 uid="uid://cu3j31n8wff4c"]
 
 [ext_resource type="TileSet" uid="uid://x0xrty40jgc2" path="res://tilemaps/main_tilemap.tres" id="1_sasuk"]
-[ext_resource type="PackedScene" uid="uid://tlkiyvc68sqg" path="res://scenes/player/player_character.tscn" id="2_cirmt"]
+[ext_resource type="PackedScene" uid="uid://tlkiyvc68sqg" path="res://player/player/player_character.tscn" id="2_cirmt"]
 [ext_resource type="TileSet" uid="uid://dmhleaee6vb7x" path="res://tilemaps/furnature/furniture.tres" id="2_j7nib"]
+
 
 [node name="Interior" type="Node"]
 

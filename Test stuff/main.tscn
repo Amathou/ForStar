@@ -4,7 +4,8 @@
 [ext_resource type="Script" path="res://scenes/ship_1/interior_load.gd" id="3_1pfao"]
 [ext_resource type="Script" path="res://Test stuff/load_ship.gd" id="3_2p7ca"]
 [ext_resource type="Texture2D" uid="uid://coi1n32py3h1i" path="res://icon.svg" id="4_uiq8o"]
-[ext_resource type="PackedScene" uid="uid://tlkiyvc68sqg" path="res://scenes/player/player_character.tscn" id="5_b8k7y"]
+[ext_resource type="PackedScene" uid="uid://tlkiyvc68sqg" path="res://player/player/player_character.tscn" id="5_b8k7y"]
+
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7xgct"]
 size = Vector2(48, 48)

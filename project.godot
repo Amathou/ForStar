@@ -12,7 +12,7 @@ config_version=5
 
 config/name="ForStar"
 config/version="Pre-Alpha 0.03"
-run/main_scene="res://scenes/menu/menu.tscn"
+run/main_scene="res://menu/menu.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
 

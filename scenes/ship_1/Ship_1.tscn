@@ -1,8 +1,9 @@
 [gd_scene load_steps=5 format=3 uid="uid://bcfjmdb5rjbq8"]
 
-[ext_resource type="PackedScene" uid="uid://tlkiyvc68sqg" path="res://scenes/player/player_character.tscn" id="1_q6u7l"]
+[ext_resource type="PackedScene" uid="uid://tlkiyvc68sqg" path="res://player/player/player_character.tscn" id="1_q6u7l"]
 [ext_resource type="TileSet" uid="uid://x0xrty40jgc2" path="res://tilemaps/main_tilemap.tres" id="2_yt6t6"]
 [ext_resource type="Script" path="res://scenes/ship_1/interior_load.gd" id="3_owohb"]
+
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fjcsq"]
 size = Vector2(48, 48)

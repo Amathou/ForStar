@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://tlkiyvc68sqg"]
 
-[ext_resource type="Script" path="res://scenes/player/player_character.gd" id="1_5wi5y"]
+[ext_resource type="Script" path="res://player/player/player_character.gd" id="1_5wi5y"]
 [ext_resource type="Texture2D" uid="uid://buvv0p1a2xacp" path="res://Test stuff/Player_Placeholder.png" id="2_uncpq"]
 [ext_resource type="AudioStream" uid="uid://dnbmj03odgiex" path="res://music/meganeko - The Cyber Grind (Ultrakill Soundtrack).wav" id="3_m41td"]
 
