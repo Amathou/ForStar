@@ -5,7 +5,7 @@
 [ext_resource type="AudioStream" uid="uid://dnbmj03odgiex" path="res://music/meganeko - The Cyber Grind (Ultrakill Soundtrack).wav" id="3_m41td"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1duru"]
-size = Vector2(15.3333, 15)
+size = Vector2(16.1666, 15)
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
 scale = Vector2(2, 2)
@@ -17,7 +17,7 @@ position = Vector2(0, -2.66667)
 texture = ExtResource("2_uncpq")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0.5, 12)
+position = Vector2(0.0833249, 12)
 shape = SubResource("RectangleShape2D_1duru")
 
 [node name="Camera2D" type="Camera2D" parent="."]

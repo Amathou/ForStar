@@ -4,7 +4,6 @@
 [ext_resource type="PackedScene" uid="uid://tlkiyvc68sqg" path="res://player/player/player_character.tscn" id="2_cirmt"]
 [ext_resource type="TileSet" uid="uid://dmhleaee6vb7x" path="res://tilemaps/furnature/furniture.tres" id="2_j7nib"]
 
-
 [node name="Interior" type="Node"]
 
 [node name="TileMap" type="TileMap" parent="."]
