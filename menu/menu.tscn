@@ -7,7 +7,6 @@
 [ext_resource type="Texture2D" uid="uid://givfqj7ph02i" path="res://menu/exit.png" id="5_sd2ao"]
 [ext_resource type="Texture2D" uid="uid://4dh5u3fgg7ag" path="res://Animations/discordSpritesheet.png" id="6_emdqb"]
 
-
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_kftoh"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_veme7"]

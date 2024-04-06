@@ -1,4 +1,5 @@
-res://scenes/ship_1/Interior/interior.tscn
+res://menu/menu.tscn
 res://tilemaps/main_tilemap.tres
 res://tilemaps/furnature/furniture.tres
 res://player/player/player_character.tscn
+res://scenes/ship_1/Interior/interior.tscn
