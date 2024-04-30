@@ -1,3 +1,8 @@
+Button
+ProgressBar
+Control
+Label
+VBoxContainer
 AudioStreamPlayer2D
 TextEdit
 Node
