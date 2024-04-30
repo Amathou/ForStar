@@ -23,7 +23,7 @@ func face_left():
 
 func menu():
 	if Input.is_action_pressed("menu"):
-		get_tree().change_scene_to_file("res://scenes/menu/menu.tscn")
+		get_tree().change_scene_to_file("res://menu/menu.tscn")
 
 func check_exit():
 	if Input.is_action_pressed("ui_exit"):
