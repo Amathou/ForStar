@@ -1,5 +1,5 @@
 6dcd580d9bf2a9dbe66cc9f994d3620b
-::res://::1727250089
+::res://::1727381357
 export_presets.cfg::TextFile::-1::1726745791::0::1::::<><>::
 gitignore.txt::TextFile::-1::1726745791::0::1::::<><>::
 icon.svg::CompressedTexture2D::5773603570562061592::1726745791::1726745791::1::::<><>::
@@ -229,18 +229,18 @@ meganeko - The Cyber Grind (Ultrakill Soundtrack).wav::AudioStreamWAV::807452742
 player_character.gd::GDScript::-1::1726745792::0::1::::<>CharacterBody2D<>::
 player_character.tscn::PackedScene::1356918933831088486::1726745792::0::1::::<><>::res://player/player/player_character.gd<>uid://buvv0p1a2xacp::::res://Test stuff/Player_Placeholder.png<>uid://dnbmj03odgiex::::res://music/meganeko - The Cyber Grind (Ultrakill Soundtrack).wav
 ::res://scenes/::1726745792
-::res://scenes/ship_1/::1726745792
+::res://scenes/ship_1/::1727250372
 interior_load.gd::GDScript::-1::1726745792::0::1::::<>Area2D<>::
-Ship_1.tscn::PackedScene::2537688302702212381::1726745792::0::1::::<><>::uid://tlkiyvc68sqg::::res://player/player/player_character.tscn<>uid://x0xrty40jgc2::::res://tilemaps/main_tilemap.tres<>res://scenes/ship_1/interior_load.gd
+Ship_1.tscn::PackedScene::2537688302702212381::1727250372::0::1::::<><>::uid://tlkiyvc68sqg::::res://player/player/player_character.tscn<>uid://x0xrty40jgc2::::res://tilemaps/main_tilemap.tres<>res://scenes/ship_1/interior_load.gd
 ::res://scenes/ship_1/Interior/::1726745792
 interior.tscn::PackedScene::6235018659643291608::1726745792::0::1::::<><>::uid://x0xrty40jgc2::::res://tilemaps/main_tilemap.tres<>uid://tlkiyvc68sqg::::res://player/player/player_character.tscn<>uid://dmhleaee6vb7x::::res://tilemaps/furnature/furniture.tres
-::res://Test stuff/::1726745790
+::res://Test stuff/::1727250344
 load_ship.gd::GDScript::-1::1726745790::0::1::::<>Area2D<>::
-main.tscn::PackedScene::6762108269925691758::1726745790::0::1::::<><>::uid://x0xrty40jgc2::::res://tilemaps/main_tilemap.tres<>res://scenes/ship_1/interior_load.gd<>res://Test stuff/load_ship.gd<>uid://coi1n32py3h1i::::res://icon.svg<>uid://tlkiyvc68sqg::::res://player/player/player_character.tscn
+main.tscn::PackedScene::6762108269925691758::1727250344::0::1::::<><>::uid://x0xrty40jgc2::::res://tilemaps/main_tilemap.tres<>res://scenes/ship_1/interior_load.gd<>res://Test stuff/load_ship.gd<>uid://coi1n32py3h1i::::res://icon.svg<>uid://tlkiyvc68sqg::::res://player/player/player_character.tscn
 Player_Placeholder.png::CompressedTexture2D::3834870019036874299::1726745790::1726745790::1::::<><>::
 Test Background.png::CompressedTexture2D::8101133349779526608::1726745790::1726745790::1::::<><>::
-::res://tilemaps/::1726745792
-main_tilemap.tres::TileSet::1667380733226606319::1726745792::0::1::::<><>::uid://dwkytlxa0vncu::::res://tilemaps/tilemap.png<>uid://ddjtjxvifocdj::::res://tilemaps/tilemap_collision.png<>uid://77m2p1j22vgc::::res://tilemaps/tilemap-inside_items_base.png
+::res://tilemaps/::1727250096
+main_tilemap.tres::TileSet::1667380733226606319::1727250096::0::1::::<><>::uid://dwkytlxa0vncu::::res://tilemaps/tilemap.png<>uid://ddjtjxvifocdj::::res://tilemaps/tilemap_collision.png<>uid://77m2p1j22vgc::::res://tilemaps/tilemap-inside_items_base.png
 tilemap-inside_items_base.png::CompressedTexture2D::2312880733356831434::1726745792::1726745792::1::::<><>::
 tilemap.png::CompressedTexture2D::8725552139888803588::1726745792::1726745792::1::::<><>::
 tilemap_collision.png::CompressedTexture2D::7389578917636308983::1726745792::1726745792::1::::<><>::
